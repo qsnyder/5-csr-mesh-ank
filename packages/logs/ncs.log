@@ -1,0 +1,141 @@
+<INFO> 1-May-2019::16:34:35.519 QSNYDER-M-C5UP ncs[4791]: - Writing daemon log to /Users/qsnyder/GitHub/virlfiles/5-csr-mesh-ank/packages/logs/ncs.log
+<INFO> 1-May-2019::16:34:35.220 QSNYDER-M-C5UP ncs[4791]: - Enabling daemon log
+<INFO> 1-May-2019::16:34:35.225 QSNYDER-M-C5UP ncs[4791]: - Starting NCS vsn: 5.1.0.1
+<DEBUG> 1-May-2019::16:34:35.260 QSNYDER-M-C5UP ncs[4791]: - Loading file confd.fxs
+<DEBUG> 1-May-2019::16:34:35.285 QSNYDER-M-C5UP ncs[4791]: - Loading file ietf-yang-types.fxs
+<DEBUG> 1-May-2019::16:34:35.286 QSNYDER-M-C5UP ncs[4791]: - Loading file ietf-inet-types.fxs
+<DEBUG> 1-May-2019::16:34:35.287 QSNYDER-M-C5UP ncs[4791]: - Loading file ietf-yang-library.fxs
+<DEBUG> 1-May-2019::16:34:35.300 QSNYDER-M-C5UP ncs[4791]: - Loading file ietf-netconf.fxs
+<DEBUG> 1-May-2019::16:34:35.303 QSNYDER-M-C5UP ncs[4791]: - Loading file ietf-netconf-with-defaults.fxs
+<DEBUG> 1-May-2019::16:34:35.305 QSNYDER-M-C5UP ncs[4791]: - Loading file netconf_netmod.fxs
+<DEBUG> 1-May-2019::16:34:35.306 QSNYDER-M-C5UP ncs[4791]: - Loading file ietf-restconf.fxs
+<DEBUG> 1-May-2019::16:34:35.307 QSNYDER-M-C5UP ncs[4791]: - Loading file ietf-yang-patch.fxs
+<DEBUG> 1-May-2019::16:34:35.316 QSNYDER-M-C5UP ncs[4791]: - Loading file tailf-rest-error.fxs
+<DEBUG> 1-May-2019::16:34:35.318 QSNYDER-M-C5UP ncs[4791]: - Loading file tailf-rest-query.fxs
+<DEBUG> 1-May-2019::16:34:35.320 QSNYDER-M-C5UP ncs[4791]: - Loading file confd_cfg.fxs
+<DEBUG> 1-May-2019::16:34:35.348 QSNYDER-M-C5UP ncs[4791]: - Loading file config.fxs
+<DEBUG> 1-May-2019::16:34:35.349 QSNYDER-M-C5UP ncs[4791]: - Loading file netconf_notification.fxs
+<DEBUG> 1-May-2019::16:34:35.350 QSNYDER-M-C5UP ncs[4791]: - Loading file netconf_actions.fxs
+<DEBUG> 1-May-2019::16:34:35.350 QSNYDER-M-C5UP ncs[4791]: - Loading file yang.fxs
+<DEBUG> 1-May-2019::16:34:35.351 QSNYDER-M-C5UP ncs[4791]: - Loading file tailf_netconf.fxs
+<DEBUG> 1-May-2019::16:34:35.351 QSNYDER-M-C5UP ncs[4791]: - Loading file cli-builtin.fxs
+<DEBUG> 1-May-2019::16:34:35.352 QSNYDER-M-C5UP ncs[4791]: - Loading file tailf-ncs-config.fxs
+<DEBUG> 1-May-2019::16:34:35.362 QSNYDER-M-C5UP ncs[4791]: - Loading file /Users/qsnyder/GitHub/virlfiles/5-csr-mesh-ank/packages/ncs.conf
+<INFO> 1-May-2019::16:34:35.375 QSNYDER-M-C5UP ncs[4791]: - Consulting daemon configuration file /Users/qsnyder/GitHub/virlfiles/5-csr-mesh-ank/packages/ncs.conf
+<DEBUG> 1-May-2019::16:34:35.401 QSNYDER-M-C5UP ncs[4791]: - Loading file ./packages/cisco-ios-cli-3.8/package-meta-data.xml
+<DEBUG> 1-May-2019::16:34:35.420 QSNYDER-M-C5UP ncs[4791]: - Copying NCS package from ./packages/cisco-ios-cli-3.8 to ./state/packages-in-use.new/1
+<DEBUG> 1-May-2019::16:34:35.440 QSNYDER-M-C5UP ncs[4791]: - Loading file ./state/packages-in-use/1/cisco-ios-cli-3.8/package-meta-data.xml
+<INFO> 1-May-2019::16:34:35.502 QSNYDER-M-C5UP ncs[4791]: - Writing audit log to /Users/qsnyder/GitHub/virlfiles/5-csr-mesh-ank/packages/logs/audit.log
+<INFO> 1-May-2019::16:34:35.502 QSNYDER-M-C5UP ncs[4791]: - Enabling audit log
+<INFO> 1-May-2019::16:34:35.507 QSNYDER-M-C5UP ncs[4791]: - Writing NETCONF log to /Users/qsnyder/GitHub/virlfiles/5-csr-mesh-ank/packages/logs/netconf.log
+<INFO> 1-May-2019::16:34:35.507 QSNYDER-M-C5UP ncs[4791]: - Enabling NETCONF log
+<INFO> 1-May-2019::16:34:35.511 QSNYDER-M-C5UP ncs[4791]: - Writing SNMP log to /Users/qsnyder/GitHub/virlfiles/5-csr-mesh-ank/packages/logs/snmp.log
+<INFO> 1-May-2019::16:34:35.511 QSNYDER-M-C5UP ncs[4791]: - Enabling SNMP log
+<INFO> 1-May-2019::16:34:35.518 QSNYDER-M-C5UP ncs[4791]: - Writing developer log to /Users/qsnyder/GitHub/virlfiles/5-csr-mesh-ank/packages/logs/devel.log
+<INFO> 1-May-2019::16:34:35.518 QSNYDER-M-C5UP ncs[4791]: - Enabling developer log
+<INFO> 1-May-2019::16:34:35.518 QSNYDER-M-C5UP ncs[4791]: - Writing XPath trace log to /Users/qsnyder/GitHub/virlfiles/5-csr-mesh-ank/packages/logs/xpath.trace
+<INFO> 1-May-2019::16:34:35.518 QSNYDER-M-C5UP ncs[4791]: - Enabling XPath trace log
+<INFO> 1-May-2019::16:34:35.545 QSNYDER-M-C5UP ncs[4791]: - Enabling error log
+<INFO> 1-May-2019::16:34:35.545 QSNYDER-M-C5UP ncs[4791]: - Writing error log to ./logs/ncserr.log
+<INFO> 1-May-2019::16:34:35.557 QSNYDER-M-C5UP ncs[4791]: - Daemon logging started
+<DEBUG> 1-May-2019::16:34:35.618 QSNYDER-M-C5UP ncs[4791]: - Loading file /Users/qsnyder/ncs-510/etc/ncs/ietf-netconf-monitoring.fxs
+<DEBUG> 1-May-2019::16:34:35.620 QSNYDER-M-C5UP ncs[4791]: - Loading file /Users/qsnyder/ncs-510/etc/ncs/tailf-common-monitoring.fxs
+<DEBUG> 1-May-2019::16:34:35.620 QSNYDER-M-C5UP ncs[4791]: - Loading file /Users/qsnyder/ncs-510/etc/ncs/ietf-netconf-acm.fxs
+<DEBUG> 1-May-2019::16:34:35.621 QSNYDER-M-C5UP ncs[4791]: - Loading file /Users/qsnyder/ncs-510/etc/ncs/tailf-common-query.fxs
+<DEBUG> 1-May-2019::16:34:35.622 QSNYDER-M-C5UP ncs[4791]: - Loading file /Users/qsnyder/ncs-510/etc/ncs/tailf-netconf-transactions.fxs
+<DEBUG> 1-May-2019::16:34:35.623 QSNYDER-M-C5UP ncs[4791]: - Loading file /Users/qsnyder/ncs-510/etc/ncs/tailf-webui.fxs
+<DEBUG> 1-May-2019::16:34:35.624 QSNYDER-M-C5UP ncs[4791]: - Loading file /Users/qsnyder/ncs-510/etc/ncs/tailf-progress.fxs
+<DEBUG> 1-May-2019::16:34:35.625 QSNYDER-M-C5UP ncs[4791]: - Loading file /Users/qsnyder/ncs-510/etc/ncs/snmp/IANA-ITU-ALARM-TC-MIB.fxs
+<DEBUG> 1-May-2019::16:34:35.626 QSNYDER-M-C5UP ncs[4791]: - Loading file /Users/qsnyder/ncs-510/etc/ncs/snmp/ITU-ALARM-TC-MIB.fxs
+<DEBUG> 1-May-2019::16:34:35.627 QSNYDER-M-C5UP ncs[4791]: - Loading file /Users/qsnyder/ncs-510/etc/ncs/snmp/TAILF-ALARM-TC-MIB.fxs
+<DEBUG> 1-May-2019::16:34:35.627 QSNYDER-M-C5UP ncs[4791]: - Loading file /Users/qsnyder/ncs-510/etc/ncs/snmp/SNMP-FRAMEWORK-MIB.fxs
+<DEBUG> 1-May-2019::16:34:35.628 QSNYDER-M-C5UP ncs[4791]: - Loading file /Users/qsnyder/ncs-510/etc/ncs/snmp/SNMPv2-TC.fxs
+<DEBUG> 1-May-2019::16:34:35.629 QSNYDER-M-C5UP ncs[4791]: - Loading file /Users/qsnyder/ncs-510/etc/ncs/tailf-common.fxs
+<DEBUG> 1-May-2019::16:34:35.629 QSNYDER-M-C5UP ncs[4791]: - Loading file /Users/qsnyder/ncs-510/etc/ncs/iana-crypt-hash.fxs
+<DEBUG> 1-May-2019::16:34:35.630 QSNYDER-M-C5UP ncs[4791]: - Loading file /Users/qsnyder/ncs-510/etc/ncs/tailf-ncs-ned.fxs
+<DEBUG> 1-May-2019::16:34:35.630 QSNYDER-M-C5UP ncs[4791]: - Loading file /Users/qsnyder/ncs-510/etc/ncs/snmp/SNMP-USER-BASED-SM-MIB.fxs
+<DEBUG> 1-May-2019::16:34:35.632 QSNYDER-M-C5UP ncs[4791]: - Loading file ./state/packages-in-use/1/cisco-ios-cli-3.8/load-dir/tailf-ned-id-cisco-ios-cli.fxs
+<DEBUG> 1-May-2019::16:34:35.632 QSNYDER-M-C5UP ncs[4791]: - Loading file /Users/qsnyder/ncs-510/etc/ncs/tailf-kicker.fxs
+<DEBUG> 1-May-2019::16:34:35.633 QSNYDER-M-C5UP ncs[4791]: - Loading file /Users/qsnyder/ncs-510/etc/ncs/snmp/SNMP-TARGET-MIB.fxs
+<DEBUG> 1-May-2019::16:34:35.634 QSNYDER-M-C5UP ncs[4791]: - Loading file /Users/qsnyder/ncs-510/etc/ncs/tailf-ncs.fxs
+<DEBUG> 1-May-2019::16:34:35.658 QSNYDER-M-C5UP ncs[4791]: - Loading file ./state/packages-in-use/1/cisco-ios-cli-3.8/load-dir/tailf-ned-id-cisco-ios-cli-3.8.fxs
+<DEBUG> 1-May-2019::16:34:35.659 QSNYDER-M-C5UP ncs[4791]: - Loading file /Users/qsnyder/ncs-510/etc/ncs/snmp/ietf-yang-smiv2.fxs
+<DEBUG> 1-May-2019::16:34:35.659 QSNYDER-M-C5UP ncs[4791]: - Loading file /Users/qsnyder/ncs-510/etc/ncs/ietf-yang-schema-mount.fxs
+<DEBUG> 1-May-2019::16:34:35.660 QSNYDER-M-C5UP ncs[4791]: - Loading file /Users/qsnyder/ncs-510/etc/ncs/ietf-restconf-monitoring.fxs
+<DEBUG> 1-May-2019::16:34:35.661 QSNYDER-M-C5UP ncs[4791]: - Loading file /Users/qsnyder/ncs-510/etc/ncs/ietf-netconf-notifications.fxs
+<DEBUG> 1-May-2019::16:34:35.663 QSNYDER-M-C5UP ncs[4791]: - Loading file /Users/qsnyder/ncs-510/etc/ncs/ietf-netconf-partial-lock.fxs
+<DEBUG> 1-May-2019::16:34:35.664 QSNYDER-M-C5UP ncs[4791]: - Loading file /Users/qsnyder/ncs-510/etc/ncs/snmp/snmp.fxs
+<DEBUG> 1-May-2019::16:34:35.666 QSNYDER-M-C5UP ncs[4791]: - Loading file /Users/qsnyder/ncs-510/etc/ncs/snmp/encryption-usm.fxs
+<DEBUG> 1-May-2019::16:34:35.668 QSNYDER-M-C5UP ncs[4791]: - Loading file /Users/qsnyder/ncs-510/etc/ncs/tailf-xsd-types.fxs
+<DEBUG> 1-May-2019::16:34:35.668 QSNYDER-M-C5UP ncs[4791]: - Loading file /Users/qsnyder/ncs-510/etc/ncs/tailf-netconf-monitoring.fxs
+<DEBUG> 1-May-2019::16:34:35.670 QSNYDER-M-C5UP ncs[4791]: - Loading file /Users/qsnyder/ncs-510/etc/ncs/tailf-ncs-monitoring.fxs
+<DEBUG> 1-May-2019::16:34:35.674 QSNYDER-M-C5UP ncs[4791]: - Loading file /Users/qsnyder/ncs-510/etc/ncs/tailf-configuration-policy.fxs
+<DEBUG> 1-May-2019::16:34:35.675 QSNYDER-M-C5UP ncs[4791]: - Loading file /Users/qsnyder/ncs-510/etc/ncs/tailf-acm.fxs
+<DEBUG> 1-May-2019::16:34:35.677 QSNYDER-M-C5UP ncs[4791]: - Loading file /Users/qsnyder/ncs-510/etc/ncs/tailf-webui-one.fxs
+<DEBUG> 1-May-2019::16:34:35.678 QSNYDER-M-C5UP ncs[4791]: - Loading file /Users/qsnyder/ncs-510/etc/ncs/tailf-rollback.fxs
+<DEBUG> 1-May-2019::16:34:35.679 QSNYDER-M-C5UP ncs[4791]: - Loading file /Users/qsnyder/ncs-510/etc/ncs/tailf-netconf-with-transaction-id.fxs
+<DEBUG> 1-May-2019::16:34:35.680 QSNYDER-M-C5UP ncs[4791]: - Loading file /Users/qsnyder/ncs-510/etc/ncs/tailf-netconf-rollback.fxs
+<DEBUG> 1-May-2019::16:34:35.681 QSNYDER-M-C5UP ncs[4791]: - Loading file /Users/qsnyder/ncs-510/etc/ncs/tailf-netconf-query.fxs
+<DEBUG> 1-May-2019::16:34:35.682 QSNYDER-M-C5UP ncs[4791]: - Loading file /Users/qsnyder/ncs-510/etc/ncs/tailf-netconf-ncs.fxs
+<DEBUG> 1-May-2019::16:34:35.686 QSNYDER-M-C5UP ncs[4791]: - Loading file /Users/qsnyder/ncs-510/etc/ncs/tailf-netconf-inactive.fxs
+<DEBUG> 1-May-2019::16:34:35.687 QSNYDER-M-C5UP ncs[4791]: - Loading file /Users/qsnyder/ncs-510/etc/ncs/tailf-netconf-extensions.fxs
+<DEBUG> 1-May-2019::16:34:35.688 QSNYDER-M-C5UP ncs[4791]: - Loading file /Users/qsnyder/ncs-510/etc/ncs/tailf-ncs-devices-yang-library.fxs
+<DEBUG> 1-May-2019::16:34:35.690 QSNYDER-M-C5UP ncs[4791]: - Loading file /Users/qsnyder/ncs-510/etc/ncs/tailf-ncs-webui.fxs
+<DEBUG> 1-May-2019::16:34:35.691 QSNYDER-M-C5UP ncs[4791]: - Loading file /Users/qsnyder/ncs-510/etc/ncs/snmp/tailf-ncs-snmp.fxs
+<DEBUG> 1-May-2019::16:34:35.692 QSNYDER-M-C5UP ncs[4791]: - Loading file /Users/qsnyder/ncs-510/etc/ncs/tailf-ncs-scheduler.fxs
+<DEBUG> 1-May-2019::16:34:35.694 QSNYDER-M-C5UP ncs[4791]: - Loading file /Users/qsnyder/ncs-510/etc/ncs/tailf-ncs-progress.fxs
+<DEBUG> 1-May-2019::16:34:35.695 QSNYDER-M-C5UP ncs[4791]: - Loading file /Users/qsnyder/ncs-510/etc/ncs/tailf-ncs-kicker-extension.fxs
+<DEBUG> 1-May-2019::16:34:35.696 QSNYDER-M-C5UP ncs[4791]: - Loading file /Users/qsnyder/ncs-510/etc/ncs/tailf-ncs-event-forwarding.fxs
+<DEBUG> 1-May-2019::16:34:35.696 QSNYDER-M-C5UP ncs[4791]: - Loading file /Users/qsnyder/ncs-510/etc/ncs/tailf-ncs-alarms.fxs
+<DEBUG> 1-May-2019::16:34:35.700 QSNYDER-M-C5UP ncs[4791]: - Loading file /Users/qsnyder/ncs-510/etc/ncs/snmp/TRANSPORT-ADDRESS-MIB.fxs
+<DEBUG> 1-May-2019::16:34:35.701 QSNYDER-M-C5UP ncs[4791]: - Loading file /Users/qsnyder/ncs-510/etc/ncs/snmp/TAILF-TOP-MIB.fxs
+<DEBUG> 1-May-2019::16:34:35.701 QSNYDER-M-C5UP ncs[4791]: - Loading file /Users/qsnyder/ncs-510/etc/ncs/snmp/TAILF-ALARM-MIB.fxs
+<DEBUG> 1-May-2019::16:34:35.702 QSNYDER-M-C5UP ncs[4791]: - Loading file /Users/qsnyder/ncs-510/etc/ncs/snmp/SNMPv2-SMI.fxs
+<DEBUG> 1-May-2019::16:34:35.703 QSNYDER-M-C5UP ncs[4791]: - Loading file /Users/qsnyder/ncs-510/etc/ncs/snmp/SNMPv2-MIB.fxs
+<DEBUG> 1-May-2019::16:34:35.704 QSNYDER-M-C5UP ncs[4791]: - Loading file /Users/qsnyder/ncs-510/etc/ncs/snmp/SNMP-VIEW-BASED-ACM-MIB.fxs
+<DEBUG> 1-May-2019::16:34:35.705 QSNYDER-M-C5UP ncs[4791]: - Loading file /Users/qsnyder/ncs-510/etc/ncs/snmp/SNMP-NOTIFICATION-MIB.fxs
+<DEBUG> 1-May-2019::16:34:35.707 QSNYDER-M-C5UP ncs[4791]: - Loading file /Users/qsnyder/ncs-510/etc/ncs/snmp/SNMP-MPD-MIB.fxs
+<DEBUG> 1-May-2019::16:34:35.707 QSNYDER-M-C5UP ncs[4791]: - Loading file /Users/qsnyder/ncs-510/etc/ncs/snmp/SNMP-COMMUNITY-MIB.fxs
+<DEBUG> 1-May-2019::16:34:35.708 QSNYDER-M-C5UP ncs[4791]: - Loading file /Users/qsnyder/ncs-510/etc/ncs/snmp/IPV6-TC.fxs
+<DEBUG> 1-May-2019::16:34:35.709 QSNYDER-M-C5UP ncs[4791]: - Loading file /Users/qsnyder/ncs-510/etc/ncs/tailf-aaa.fxs
+<DEBUG> 1-May-2019::16:34:35.710 QSNYDER-M-C5UP ncs[4791]: - Loading file /Users/qsnyder/ncs-510/etc/ncs/tailf-ncs-rfc5277-device.fxs
+<DEBUG> 1-May-2019::16:34:35.711 QSNYDER-M-C5UP ncs[4791]: - Loading file ./state/packages-in-use/1/cisco-ios-cli-3.8/load-dir/tailf-ned-cisco-ios-stats.fxs
+<DEBUG> 1-May-2019::16:34:35.713 QSNYDER-M-C5UP ncs[4791]: - Loading file ./state/packages-in-use/1/cisco-ios-cli-3.8/load-dir/tailf-ned-cisco-ios.fxs
+<DEBUG> 1-May-2019::16:34:36.885 QSNYDER-M-C5UP ncs[4791]: - Loading file /Users/qsnyder/ncs-510/etc/ncs/ncs.ccl
+<DEBUG> 1-May-2019::16:34:36.895 QSNYDER-M-C5UP ncs[4791]: - Loading file /Users/qsnyder/ncs-510/etc/ncs/smart-license.ccl
+<DEBUG> 1-May-2019::16:34:36.973 QSNYDER-M-C5UP ncs[4791]: - Loading file /Users/qsnyder/ncs-510/scripts/command/device_save.sh
+<INFO> 1-May-2019::16:34:37.024 QSNYDER-M-C5UP ncs[4791]: - Starting to listen for Internal IPC on 127.0.0.1:4569
+<INFO> 1-May-2019::16:34:37.806 QSNYDER-M-C5UP ncs[4791]: - CDB load: processing file: /Users/qsnyder/ncs-510/var/ncs/cdb/aaa_init.xml
+<INFO> 1-May-2019::16:34:37.861 QSNYDER-M-C5UP ncs[4791]: - CDB load: processing file: /Users/qsnyder/ncs-510/var/ncs/cdb/ncs_defaults.xml
+<INFO> 1-May-2019::16:34:37.871 QSNYDER-M-C5UP ncs[4791]: - CDB load: processing file: /Users/qsnyder/ncs-510/var/ncs/cdb/sls_defaults.xml
+<INFO> 1-May-2019::16:34:37.872 QSNYDER-M-C5UP ncs[4791]: - CDB load: processing file: /Users/qsnyder/ncs-510/var/ncs/cdb/tailf-ncs-alarms_init.xml
+<INFO> 1-May-2019::16:34:38.100 QSNYDER-M-C5UP ncs[4791]: - Starting the NCS Java VM
+<DEBUG> 1-May-2019::16:34:38.338 QSNYDER-M-C5UP ncs[4791]: - Loading file /Users/qsnyder/ncs-510/etc/ncs/snmp/snmp_init.xml
+<INFO> 1-May-2019::16:34:38.509 QSNYDER-M-C5UP ncs[4791]: - Starting to listen for NETCONF SSH on 0.0.0.0:2022
+<INFO> 1-May-2019::16:34:38.581 QSNYDER-M-C5UP ncs[4791]: - Starting to listen for WebUI TCP on 0.0.0.0:8080
+<DEBUG> 1-May-2019::16:34:38.776 QSNYDER-M-C5UP ncs[4791]: - Loading MIB: /Users/qsnyder/ncs-510/lib/ncs/lib/snmp/snmp/priv/mibs/SNMPv2-MIB
+<DEBUG> 1-May-2019::16:34:38.777 QSNYDER-M-C5UP ncs[4791]: - Loading MIB: /Users/qsnyder/ncs-510/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-FRAMEWORK-MIB
+<DEBUG> 1-May-2019::16:34:38.777 QSNYDER-M-C5UP ncs[4791]: - Loading MIB: /Users/qsnyder/ncs-510/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-MPD-MIB
+<INFO> 1-May-2019::16:34:38.886 QSNYDER-M-C5UP ncs[4791]: - Starting to listen for SNMP UDP on 0.0.0.0:4000
+<DEBUG> 1-May-2019::16:34:38.905 QSNYDER-M-C5UP ncs[4791]: - Loading MIB: /Users/qsnyder/ncs-510/etc/ncs/snmp/IANA-ITU-ALARM-TC-MIB.bin
+<DEBUG> 1-May-2019::16:34:38.906 QSNYDER-M-C5UP ncs[4791]: - Loading MIB: /Users/qsnyder/ncs-510/etc/ncs/snmp/ITU-ALARM-TC-MIB.bin
+<DEBUG> 1-May-2019::16:34:38.914 QSNYDER-M-C5UP ncs[4791]: - Loading MIB: /Users/qsnyder/ncs-510/etc/ncs/snmp/TAILF-ALARM-MIB.bin
+<DEBUG> 1-May-2019::16:34:38.914 QSNYDER-M-C5UP ncs[4791]: - Loading MIB: /Users/qsnyder/ncs-510/etc/ncs/snmp/TAILF-ALARM-TC-MIB.bin
+<DEBUG> 1-May-2019::16:34:38.918 QSNYDER-M-C5UP ncs[4791]: - Loading MIB: /Users/qsnyder/ncs-510/etc/ncs/snmp/TAILF-TOP-MIB.bin
+<DEBUG> 1-May-2019::16:34:38.918 QSNYDER-M-C5UP ncs[4791]: - Loading MIB: /Users/qsnyder/ncs-510/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-COMMUNITY-MIB.bin
+<DEBUG> 1-May-2019::16:34:38.919 QSNYDER-M-C5UP ncs[4791]: - Loading MIB: /Users/qsnyder/ncs-510/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-TARGET-MIB.bin
+<DEBUG> 1-May-2019::16:34:38.922 QSNYDER-M-C5UP ncs[4791]: - Loading MIB: /Users/qsnyder/ncs-510/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-NOTIFICATION-MIB.bin
+<DEBUG> 1-May-2019::16:34:38.923 QSNYDER-M-C5UP ncs[4791]: - Loading MIB: /Users/qsnyder/ncs-510/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-USER-BASED-SM-MIB.bin
+<DEBUG> 1-May-2019::16:34:38.924 QSNYDER-M-C5UP ncs[4791]: - Loading MIB: /Users/qsnyder/ncs-510/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-VIEW-BASED-ACM-MIB.bin
+<INFO> 1-May-2019::16:34:39.046 QSNYDER-M-C5UP ncs[4791]: - Starting to listen for CLI SSH on 0.0.0.0:2024
+<INFO> 1-May-2019::16:34:39.936 QSNYDER-M-C5UP ncs[4791]: - Starting the NCS Smart Licensing Java VM
+<INFO> 1-May-2019::16:34:39.951 QSNYDER-M-C5UP ncs[4791]: - NCS started vsn: 5.1.0.1
+<INFO> 1-May-2019::16:34:48.275 QSNYDER-M-C5UP ncs[4791]: - Smart Licensing Global Notification: type = "notifyEnabled", agentID = "sa1", enforceMode = "notApplicable", allowRestricted = false, failReasonCode = "success", failMessage = "Successful."
+<INFO> 1-May-2019::16:34:52.018 QSNYDER-M-C5UP ncs[4791]: - Smart Licensing Global Notification: type = "notifyReady", agentID = "sa1", enforceMode = "notApplicable", allowRestricted = false, failReasonCode = "success", failMessage = "Successful."
+<INFO> 1-May-2019::16:34:52.044 QSNYDER-M-C5UP ncs[4791]: - Smart Licensing Entitlement Notification: type = "notifyEnforcementMode", agentID = "sa1", notificationTime = "May 1 16:34:48 2019", version = "1.0", requestedDate = "May 1 16:34:47 2019", tag = "regid.2015-10.com.cisco.NSO-platform-production,1.0_d1445dab-9d96-4593-99f2-6f633b8a759c", enforceMode = "eval", daysLeft = 90, expiryDate = "Jul 30 16:34:47 2019", requestedCount = 1
+<INFO> 1-May-2019::16:35:26.003 QSNYDER-M-C5UP ncs[4791]: - NCS stopping (ncs --stop called by qsnyder in /Users/qsnyder/GitHub/virlfiles/5-csr-mesh-ank)
+<INFO> 1-May-2019::16:35:26.372 QSNYDER-M-C5UP ncs[4791]: - The NCS Java VM closed japi socket
+<INFO> 1-May-2019::16:35:26.375 QSNYDER-M-C5UP ncs[4791]: - The NCS Java VM terminated
+<INFO> 1-May-2019::16:35:26.391 QSNYDER-M-C5UP ncs[4791]: - Stopping to listen for NETCONF SSH on 0.0.0.0:2022
+<INFO> 1-May-2019::16:35:30.442 QSNYDER-M-C5UP ncs[4791]: - Stopping to listen for Internal IPC on 127.0.0.1:4569
+<INFO> 1-May-2019::16:35:30.445 QSNYDER-M-C5UP ncs[4791]: - Daemon logging terminating, reason: shutdown

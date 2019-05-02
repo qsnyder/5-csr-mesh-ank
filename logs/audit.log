@@ -1,0 +1,9 @@
+<INFO> 1-May-2019::16:37:20.991 QSNYDER-M-C5UP ncs[6319]: audit user: admin/0 local authentication succeeded via rest from 127.0.0.1:50492 with http, member of groups: admin
+<INFO> 1-May-2019::16:37:20.992 QSNYDER-M-C5UP ncs[6319]: audit user: admin/0 logged in via rest from 127.0.0.1:50492 with http using local authentication
+<INFO> 1-May-2019::16:37:20.998 QSNYDER-M-C5UP ncs[6319]: audit user: admin/38 assigned to groups: admin
+<INFO> 1-May-2019::16:41:44.631 QSNYDER-M-C5UP ncs[6319]: audit user: admin/39 assigned to groups: admin,staff,access_bpf,everyone,localaccounts,_appserverusr,_appserveradm,_lpadmin,_appstore,_lpoperator,_developer,_analyticsusers,com.apple.access_ftp,com.apple.access_screensharing,com.apple.access_ssh,com.apple.sharepoint.group.1
+<INFO> 1-May-2019::16:41:48.097 QSNYDER-M-C5UP ncs[6319]: audit user: admin/39 CLI 'show devices'
+<INFO> 1-May-2019::16:41:55.775 QSNYDER-M-C5UP ncs[6319]: audit user: admin/39 CLI aborted
+<INFO> 1-May-2019::16:42:11.629 QSNYDER-M-C5UP ncs[6319]: audit user: admin/39 CLI 'show devices device'
+<INFO> 1-May-2019::16:42:24.996 QSNYDER-M-C5UP ncs[6319]: audit user: admin/39 CLI aborted
+<INFO> 1-May-2019::16:42:29.056 QSNYDER-M-C5UP ncs[6319]: audit user: admin/39 CLI 'exit'

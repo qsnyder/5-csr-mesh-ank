@@ -1,0 +1,204 @@
+testbed:
+
+  name: 5-csr-mesh-ank_default_eIGhV0
+
+  tacacs:
+      username: "admin"
+  passwords:
+      tacacs: "%ENV{PYATS_PASSWORD}"
+      enable: "cisco"
+      line: "admin"
+
+devices:
+
+  csr1000v-4:
+    alias: csr1000v-4
+    os: iosxe
+    type: CSR1000v
+    connections:
+
+      defaults:
+        class: unicon.Unicon
+      console:
+        ip: 10.95.73.90
+        protocol: telnet
+        port: 17001
+    custom:
+      abstraction:
+        order: [os, type]
+
+  csr1000v-5:
+    alias: csr1000v-5
+    os: iosxe
+    type: CSR1000v
+    connections:
+
+      defaults:
+        class: unicon.Unicon
+      console:
+        ip: 10.95.73.97
+        protocol: telnet
+        port: 17002
+    custom:
+      abstraction:
+        order: [os, type]
+
+  csr1000v-2:
+    alias: csr1000v-2
+    os: iosxe
+    type: CSR1000v
+    connections:
+
+      defaults:
+        class: unicon.Unicon
+      console:
+        ip: 10.95.73.89
+        protocol: telnet
+        port: 17000
+    custom:
+      abstraction:
+        order: [os, type]
+
+  csr1000v-3:
+    alias: csr1000v-3
+    os: iosxe
+    type: CSR1000v
+    connections:
+
+      defaults:
+        class: unicon.Unicon
+      console:
+        ip: phx2-virl.cisco.com
+        protocol: telnet
+        port: 17000
+    custom:
+      abstraction:
+        order: [os, type]
+
+  csr1000v-1:
+    alias: csr1000v-1
+    os: iosxe
+    type: CSR1000v
+    connections:
+
+      defaults:
+        class: unicon.Unicon
+      console:
+        ip: 10.95.73.97
+        protocol: telnet
+        port: 17000
+    custom:
+      abstraction:
+        order: [os, type]
+
+topology:
+  csr1000v-4:
+    interfaces:
+      GigabitEthernet3:
+        ipv4: 10.0.0.26/30
+        link: csr1000v-2-to-csr1000v-4
+        type: ethernet
+      GigabitEthernet2:
+        ipv4: 10.0.0.14/30
+        link: csr1000v-1-to-csr1000v-4
+        type: ethernet
+      GigabitEthernet5:
+        ipv4: 10.0.0.41/30
+        link: csr1000v-4-to-csr1000v-5
+        type: ethernet
+      GigabitEthernet4:
+        ipv4: 10.0.0.34/30
+        link: csr1000v-3-to-csr1000v-4
+        type: ethernet
+      GigabitEthernet1:
+        ipv4: 10.95.44.219/24
+        link: flat
+        type: ethernet
+  csr1000v-5:
+    interfaces:
+      GigabitEthernet3:
+        ipv4: 10.0.0.30/30
+        link: csr1000v-2-to-csr1000v-5
+        type: ethernet
+      GigabitEthernet2:
+        ipv4: 10.0.0.18/30
+        link: csr1000v-1-to-csr1000v-5
+        type: ethernet
+      GigabitEthernet5:
+        ipv4: 10.0.0.42/30
+        link: csr1000v-4-to-csr1000v-5
+        type: ethernet
+      GigabitEthernet4:
+        ipv4: 10.0.0.38/30
+        link: csr1000v-3-to-csr1000v-5
+        type: ethernet
+      GigabitEthernet1:
+        ipv4: 10.95.44.220/24
+        link: flat
+        type: ethernet
+  csr1000v-2:
+    interfaces:
+      GigabitEthernet3:
+        ipv4: 10.0.0.21/30
+        link: csr1000v-2-to-csr1000v-3
+        type: ethernet
+      GigabitEthernet2:
+        ipv4: 10.0.0.6/30
+        link: csr1000v-1-to-csr1000v-2
+        type: ethernet
+      GigabitEthernet5:
+        ipv4: 10.0.0.29/30
+        link: csr1000v-2-to-csr1000v-5
+        type: ethernet
+      GigabitEthernet4:
+        ipv4: 10.0.0.25/30
+        link: csr1000v-2-to-csr1000v-4
+        type: ethernet
+      GigabitEthernet1:
+        ipv4: 10.95.44.217/24
+        link: flat
+        type: ethernet
+  csr1000v-3:
+    interfaces:
+      GigabitEthernet3:
+        ipv4: 10.0.0.22/30
+        link: csr1000v-2-to-csr1000v-3
+        type: ethernet
+      GigabitEthernet2:
+        ipv4: 10.0.0.10/30
+        link: csr1000v-1-to-csr1000v-3
+        type: ethernet
+      GigabitEthernet5:
+        ipv4: 10.0.0.37/30
+        link: csr1000v-3-to-csr1000v-5
+        type: ethernet
+      GigabitEthernet4:
+        ipv4: 10.0.0.33/30
+        link: csr1000v-3-to-csr1000v-4
+        type: ethernet
+      GigabitEthernet1:
+        ipv4: 10.95.44.218/24
+        link: flat
+        type: ethernet
+  csr1000v-1:
+    interfaces:
+      GigabitEthernet3:
+        ipv4: 10.0.0.9/30
+        link: csr1000v-1-to-csr1000v-3
+        type: ethernet
+      GigabitEthernet2:
+        ipv4: 10.0.0.5/30
+        link: csr1000v-1-to-csr1000v-2
+        type: ethernet
+      GigabitEthernet5:
+        ipv4: 10.0.0.17/30
+        link: csr1000v-1-to-csr1000v-5
+        type: ethernet
+      GigabitEthernet4:
+        ipv4: 10.0.0.13/30
+        link: csr1000v-1-to-csr1000v-4
+        type: ethernet
+      GigabitEthernet1:
+        ipv4: 10.95.44.216/24
+        link: flat
+        type: ethernet

@@ -1,0 +1,491 @@
+<INFO> 1-May-2019::16:34:35.597 QSNYDER-M-C5UP ncs[4791]: ncs embedded apps in early_phase0:
+	[]
+<INFO> 1-May-2019::16:34:37.063 QSNYDER-M-C5UP ncs[4791]: ncs mmap_schema, started
+<INFO> 1-May-2019::16:34:37.104 QSNYDER-M-C5UP ncs[4791]: ncs embedded apps in phase0:
+	[]
+<INFO> 1-May-2019::16:34:37.146 QSNYDER-M-C5UP ncs[4791]: ncs mmap_schema not supported on platform
+<DEBUG> 1-May-2019::16:34:37.194 QSNYDER-M-C5UP ncs[4791]: devel-cdb Using delayed CDB journal compaction (automatic mode)
+<INFO> 1-May-2019::16:34:37.806 QSNYDER-M-C5UP ncs[4791]: devel-cdb init files found in /Users/qsnyder/ncs-510/var/ncs/cdb: aaa_init.xml, ncs_defaults.xml, sls_defaults.xml, tailf-ncs-alarms_init.xml
+<INFO> 1-May-2019::16:34:37.806 QSNYDER-M-C5UP ncs[4791]: devel-cdb init files found in ./ncs-cdb: 
+<INFO> 1-May-2019::16:34:37.806 QSNYDER-M-C5UP ncs[4791]: devel-cdb init files found in ./state/packages-in-use/1/cisco-ios-cli-3.8/load-dir: 
+<INFO> 1-May-2019::16:34:37.862 QSNYDER-M-C5UP ncs[4791]: ncs encryptedStrings keys provided from config
+<DEBUG> 1-May-2019::16:34:37.885 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=5 thandle=-2: entering validate phase for running...
+<DEBUG> 1-May-2019::16:34:37.885 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=5 thandle=-2: validate: grabbing transaction lock...
+<DEBUG> 1-May-2019::16:34:37.886 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=5 thandle=-2: validate: grabbing transaction lock ok
+<DEBUG> 1-May-2019::16:34:37.886 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=5 thandle=-2: validate: mark inactive...
+<DEBUG> 1-May-2019::16:34:37.892 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=5 thandle=-2: validate: mark inactive ok
+<DEBUG> 1-May-2019::16:34:37.897 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=5 thandle=-2: validate: pre validate...
+<DEBUG> 1-May-2019::16:34:37.899 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=5 thandle=-2: validate: pre validate ok
+<DEBUG> 1-May-2019::16:34:37.900 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=5 thandle=-2: validate: run validation over the change set...
+<DEBUG> 1-May-2019::16:34:37.922 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=5 thandle=-2: validate: validation over the change set done
+<DEBUG> 1-May-2019::16:34:37.922 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=5 thandle=-2: validate: run dependency-triggered validation...
+<DEBUG> 1-May-2019::16:34:37.928 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=5 thandle=-2: validate: dependency-triggered validation done
+<DEBUG> 1-May-2019::16:34:37.928 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=5 thandle=-2: validate: check configuration policies...
+<DEBUG> 1-May-2019::16:34:37.928 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=5 thandle=-2: validate: configuration policies done
+<DEBUG> 1-May-2019::16:34:37.928 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=5 thandle=-2: entering write-start phase for running...
+<DEBUG> 1-May-2019::16:34:37.928 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=5 thandle=-2: cdb: write-start
+<DEBUG> 1-May-2019::16:34:37.934 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=5 thandle=-2: entering prepare phase for running...
+<DEBUG> 1-May-2019::16:34:37.934 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=5 thandle=-2: cdb: prepare
+<DEBUG> 1-May-2019::16:34:37.934 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=5 thandle=-2: entering commit phase for running...
+<DEBUG> 1-May-2019::16:34:37.935 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=5 thandle=-2: cdb: commit
+<DEBUG> 1-May-2019::16:34:37.935 QSNYDER-M-C5UP ncs[4791]: devel-cdb Delaying CDB journal compaction
+<INFO> 1-May-2019::16:34:37.935 QSNYDER-M-C5UP ncs[4791]: ncs encryptedStrings keys provided from config
+<INFO> 1-May-2019::16:34:37.935 QSNYDER-M-C5UP ncs[4791]: ncs embedded apps in phase1:
+	[]
+<DEBUG> 1-May-2019::16:34:38.056 QSNYDER-M-C5UP ncs[4791]: devel-c New daemon connected (name: ncs-internal-device-mgr, daemon id: 0)
+<DEBUG> 1-May-2019::16:34:38.056 QSNYDER-M-C5UP ncs[4791]: devel-c New worker connected (daemon id: 0 worker id: 1)
+<DEBUG> 1-May-2019::16:34:38.097 QSNYDER-M-C5UP ncs[4791]: devel-c New daemon connected (name: snmp-config-transform, daemon id: 1)
+<DEBUG> 1-May-2019::16:34:38.097 QSNYDER-M-C5UP ncs[4791]: devel-c New worker connected (daemon id: 1 worker id: 4)
+<DEBUG> 1-May-2019::16:34:38.098 QSNYDER-M-C5UP ncs[4791]: devel-cdb connect from snmp-config-transform
+<DEBUG> 1-May-2019::16:34:38.098 QSNYDER-M-C5UP ncs[4791]: devel-cdb client snmp-config-transform has pid 4820/6
+<DEBUG> 1-May-2019::16:34:38.098 QSNYDER-M-C5UP ncs[4791]: devel-cdb inactive client snmp-config-transform closed
+<DEBUG> 1-May-2019::16:34:38.099 QSNYDER-M-C5UP ncs[4791]: devel-c New daemon connected (name: snmp-config-hook, daemon id: 2)
+<DEBUG> 1-May-2019::16:34:38.099 QSNYDER-M-C5UP ncs[4791]: devel-c New worker connected (daemon id: 2 worker id: 7)
+<DEBUG> 1-May-2019::16:34:38.134 QSNYDER-M-C5UP ncs[4791]: devel-c New daemon connected (name: ncs-internal-template-variable, daemon id: 3)
+<DEBUG> 1-May-2019::16:34:38.135 QSNYDER-M-C5UP ncs[4791]: devel-c New worker connected (daemon id: 3 worker id: 1)
+<DEBUG> 1-May-2019::16:34:38.148 QSNYDER-M-C5UP ncs[4791]: devel-c New daemon connected (name: ncs-internal-service-mux, daemon id: 4)
+<DEBUG> 1-May-2019::16:34:38.149 QSNYDER-M-C5UP ncs[4791]: devel-c New worker connected (daemon id: 4 worker id: 1)
+<DEBUG> 1-May-2019::16:34:38.203 QSNYDER-M-C5UP ncs[4791]: devel-c New daemon connected (name: ncs-internal-service-mux-completion, daemon id: 5)
+<DEBUG> 1-May-2019::16:34:38.203 QSNYDER-M-C5UP ncs[4791]: devel-c New worker connected (daemon id: 5 worker id: 1)
+<DEBUG> 1-May-2019::16:34:38.254 QSNYDER-M-C5UP ncs[4791]: devel-cdb Loaded AAA data from CDB
+<INFO> 1-May-2019::16:34:38.293 QSNYDER-M-C5UP ncs[4791]: ncs embedded apps in phase1_delayed:
+	[]
+<DEBUG> 1-May-2019::16:34:38.306 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=22 thandle=13: entering validate phase for running...
+<DEBUG> 1-May-2019::16:34:38.306 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=22 thandle=13: validate: run pre-trans-lock service callbacks...
+<DEBUG> 1-May-2019::16:34:38.306 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=22 thandle=13: validate: run transforms and transaction hooks...
+<DEBUG> 1-May-2019::16:34:38.306 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=22 thandle=13: validate: run transforms and transaction hooks done
+<DEBUG> 1-May-2019::16:34:38.306 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=22 thandle=13: validate: pre-trans-lock service callbacks done
+<DEBUG> 1-May-2019::16:34:38.306 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=22 thandle=13: validate: grabbing transaction lock...
+<DEBUG> 1-May-2019::16:34:38.306 QSNYDER-M-C5UP ncs[4791]: devel-c new_usess db request daemon id: 4
+<DEBUG> 1-May-2019::16:34:38.306 QSNYDER-M-C5UP ncs[4791]: devel-c db reply daemon id: 4
+<DEBUG> 1-May-2019::16:34:38.306 QSNYDER-M-C5UP ncs[4791]: devel-c new_trans request daemon id: 4 thandle: 13
+<DEBUG> 1-May-2019::16:34:38.306 QSNYDER-M-C5UP ncs[4791]: devel-c new_trans succeeded daemon id: 4 session id: 13 worker id: 1
+<DEBUG> 1-May-2019::16:34:38.307 QSNYDER-M-C5UP ncs[4791]: devel-c new_usess db request daemon id: 0
+<DEBUG> 1-May-2019::16:34:38.307 QSNYDER-M-C5UP ncs[4791]: devel-c db reply daemon id: 0
+<DEBUG> 1-May-2019::16:34:38.307 QSNYDER-M-C5UP ncs[4791]: devel-c new_trans request daemon id: 0 thandle: 13
+<DEBUG> 1-May-2019::16:34:38.307 QSNYDER-M-C5UP ncs[4791]: devel-c new_trans succeeded daemon id: 0 session id: 13 worker id: 1
+<DEBUG> 1-May-2019::16:34:38.307 QSNYDER-M-C5UP ncs[4791]: devel-c trans_lock request daemon id: 4 session id: 13
+<DEBUG> 1-May-2019::16:34:38.307 QSNYDER-M-C5UP ncs[4791]: devel-c trans_lock succeeded daemon id: 4 session id: 13
+<DEBUG> 1-May-2019::16:34:38.307 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=22 thandle=13: validate: grabbing transaction lock ok
+<DEBUG> 1-May-2019::16:34:38.307 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=22 thandle=13: validate: creating rollback file...
+<DEBUG> 1-May-2019::16:34:38.310 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=22 thandle=13: validate: creating rollback file ok
+<DEBUG> 1-May-2019::16:34:38.310 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=22 thandle=13: validate: run transforms and transaction hooks...
+<DEBUG> 1-May-2019::16:34:38.310 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=22 thandle=13: validate: run transforms and transaction hooks done
+<DEBUG> 1-May-2019::16:34:38.311 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=22 thandle=13: validate: mark inactive...
+<DEBUG> 1-May-2019::16:34:38.311 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=22 thandle=13: validate: mark inactive ok
+<DEBUG> 1-May-2019::16:34:38.311 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=22 thandle=13: validate: pre validate...
+<DEBUG> 1-May-2019::16:34:38.311 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=22 thandle=13: validate: pre validate ok
+<DEBUG> 1-May-2019::16:34:38.311 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=22 thandle=13: validate: run validation over the change set...
+<DEBUG> 1-May-2019::16:34:38.312 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=22 thandle=13: validate: validation over the change set done
+<DEBUG> 1-May-2019::16:34:38.312 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=22 thandle=13: validate: run dependency-triggered validation...
+<DEBUG> 1-May-2019::16:34:38.312 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=22 thandle=13: validate: dependency-triggered validation done
+<DEBUG> 1-May-2019::16:34:38.312 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=22 thandle=13: validate: check configuration policies...
+<DEBUG> 1-May-2019::16:34:38.312 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=22 thandle=13: validate: configuration policies done
+<DEBUG> 1-May-2019::16:34:38.312 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=22 thandle=13: entering write-start phase for running...
+<DEBUG> 1-May-2019::16:34:38.312 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=22 thandle=13: cdb: write-start
+<DEBUG> 1-May-2019::16:34:38.313 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=22 thandle=13: entering prepare phase for running...
+<DEBUG> 1-May-2019::16:34:38.313 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=22 thandle=13: cdb: prepare
+<DEBUG> 1-May-2019::16:34:38.313 QSNYDER-M-C5UP ncs[4791]: devel-c prepare request daemon id: 0 session id: 13
+<DEBUG> 1-May-2019::16:34:38.313 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=22 thandle=13: ncs-internal-device-mgr: prepare
+<DEBUG> 1-May-2019::16:34:38.328 QSNYDER-M-C5UP ncs[4791]: devel-c prepare succeeded daemon id: 0 session id: 13
+<DEBUG> 1-May-2019::16:34:38.328 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=22 thandle=13: entering commit phase for running...
+<DEBUG> 1-May-2019::16:34:38.328 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=22 thandle=13: cdb: commit
+<DEBUG> 1-May-2019::16:34:38.329 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=22 thandle=13: ncs-internal-service-mux: commit
+<DEBUG> 1-May-2019::16:34:38.329 QSNYDER-M-C5UP ncs[4791]: devel-c commit request daemon id: 4 session id: 13
+<DEBUG> 1-May-2019::16:34:38.329 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=22 thandle=13: ncs-internal-device-mgr: commit
+<DEBUG> 1-May-2019::16:34:38.329 QSNYDER-M-C5UP ncs[4791]: devel-c commit succeeded daemon id: 4 session id: 13
+<DEBUG> 1-May-2019::16:34:38.329 QSNYDER-M-C5UP ncs[4791]: devel-c commit request daemon id: 0 session id: 13
+<DEBUG> 1-May-2019::16:34:38.337 QSNYDER-M-C5UP ncs[4791]: devel-c commit succeeded daemon id: 0 session id: 13
+<DEBUG> 1-May-2019::16:34:38.337 QSNYDER-M-C5UP ncs[4791]: devel-c close_trans request daemon id: 4 session id: 13
+<DEBUG> 1-May-2019::16:34:38.337 QSNYDER-M-C5UP ncs[4791]: devel-c close_trans succeeded daemon id: 4 session id: 13
+<DEBUG> 1-May-2019::16:34:38.337 QSNYDER-M-C5UP ncs[4791]: devel-c close_trans request daemon id: 0 session id: 13
+<DEBUG> 1-May-2019::16:34:38.337 QSNYDER-M-C5UP ncs[4791]: devel-c close_trans succeeded daemon id: 0 session id: 13
+<DEBUG> 1-May-2019::16:34:38.337 QSNYDER-M-C5UP ncs[4791]: devel-c close_usess db request daemon id: 4
+<DEBUG> 1-May-2019::16:34:38.338 QSNYDER-M-C5UP ncs[4791]: devel-c db reply daemon id: 4
+<DEBUG> 1-May-2019::16:34:38.338 QSNYDER-M-C5UP ncs[4791]: devel-c close_usess db request daemon id: 0
+<DEBUG> 1-May-2019::16:34:38.338 QSNYDER-M-C5UP ncs[4791]: devel-c db reply daemon id: 0
+<DEBUG> 1-May-2019::16:34:38.340 QSNYDER-M-C5UP ncs[4791]: devel-c new_usess db request daemon id: 1
+<DEBUG> 1-May-2019::16:34:38.340 QSNYDER-M-C5UP ncs[4791]: devel-c db reply daemon id: 1
+<DEBUG> 1-May-2019::16:34:38.340 QSNYDER-M-C5UP ncs[4791]: devel-c new_trans request daemon id: 1 thandle: 16
+<DEBUG> 1-May-2019::16:34:38.340 QSNYDER-M-C5UP ncs[4791]: devel-c new_trans succeeded daemon id: 1 session id: 16 worker id: 4
+<DEBUG> 1-May-2019::16:34:38.340 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem request for callpoint agent path /snmp:snmp/agent/enabled
+<DEBUG> 1-May-2019::16:34:38.341 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem succeeded for callpoint agent path /snmp:snmp/agent/enabled
+<DEBUG> 1-May-2019::16:34:38.341 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem request for callpoint agent path /snmp:snmp/agent/enabled
+<DEBUG> 1-May-2019::16:34:38.341 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem succeeded for callpoint agent path /snmp:snmp/agent/enabled
+<DEBUG> 1-May-2019::16:34:38.341 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem request for callpoint agent path /snmp:snmp/agent/ip
+<DEBUG> 1-May-2019::16:34:38.342 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem succeeded for callpoint agent path /snmp:snmp/agent/ip
+<DEBUG> 1-May-2019::16:34:38.342 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem request for callpoint agent path /snmp:snmp/agent/ip
+<DEBUG> 1-May-2019::16:34:38.342 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem succeeded for callpoint agent path /snmp:snmp/agent/ip
+<DEBUG> 1-May-2019::16:34:38.342 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem request for callpoint agent path /snmp:snmp/agent/udp-port
+<DEBUG> 1-May-2019::16:34:38.343 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem succeeded for callpoint agent path /snmp:snmp/agent/udp-port
+<DEBUG> 1-May-2019::16:34:38.343 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem request for callpoint agent path /snmp:snmp/agent/udp-port
+<DEBUG> 1-May-2019::16:34:38.343 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem succeeded for callpoint agent path /snmp:snmp/agent/udp-port
+<DEBUG> 1-May-2019::16:34:38.343 QSNYDER-M-C5UP ncs[4791]: devel-c exists request for callpoint agent path /snmp:snmp/agent/version/v1
+<DEBUG> 1-May-2019::16:34:38.343 QSNYDER-M-C5UP ncs[4791]: devel-c exists succeeded for callpoint agent path /snmp:snmp/agent/version/v1
+<DEBUG> 1-May-2019::16:34:38.344 QSNYDER-M-C5UP ncs[4791]: devel-c exists request for callpoint agent path /snmp:snmp/agent/version/v2c
+<DEBUG> 1-May-2019::16:34:38.344 QSNYDER-M-C5UP ncs[4791]: devel-c exists succeeded for callpoint agent path /snmp:snmp/agent/version/v2c
+<DEBUG> 1-May-2019::16:34:38.344 QSNYDER-M-C5UP ncs[4791]: devel-c exists request for callpoint agent path /snmp:snmp/agent/version/v3
+<DEBUG> 1-May-2019::16:34:38.344 QSNYDER-M-C5UP ncs[4791]: devel-c exists succeeded for callpoint agent path /snmp:snmp/agent/version/v3
+<DEBUG> 1-May-2019::16:34:38.345 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem request for callpoint agent path /snmp:snmp/agent/max-message-size
+<DEBUG> 1-May-2019::16:34:38.345 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem succeeded for callpoint agent path /snmp:snmp/agent/max-message-size
+<DEBUG> 1-May-2019::16:34:38.345 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem request for callpoint agent path /snmp:snmp/agent/max-message-size
+<DEBUG> 1-May-2019::16:34:38.345 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem succeeded for callpoint agent path /snmp:snmp/agent/max-message-size
+<DEBUG> 1-May-2019::16:34:38.346 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem request for callpoint agent path /snmp:snmp/system/contact
+<DEBUG> 1-May-2019::16:34:38.346 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem succeeded for callpoint agent path /snmp:snmp/system/contact
+<DEBUG> 1-May-2019::16:34:38.346 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem request for callpoint agent path /snmp:snmp/system/contact
+<DEBUG> 1-May-2019::16:34:38.346 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem succeeded for callpoint agent path /snmp:snmp/system/contact
+<DEBUG> 1-May-2019::16:34:38.346 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem request for callpoint agent path /snmp:snmp/system/name
+<DEBUG> 1-May-2019::16:34:38.347 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem succeeded for callpoint agent path /snmp:snmp/system/name
+<DEBUG> 1-May-2019::16:34:38.347 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem request for callpoint agent path /snmp:snmp/system/name
+<DEBUG> 1-May-2019::16:34:38.347 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem succeeded for callpoint agent path /snmp:snmp/system/name
+<DEBUG> 1-May-2019::16:34:38.347 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem request for callpoint agent path /snmp:snmp/system/location
+<DEBUG> 1-May-2019::16:34:38.347 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem succeeded for callpoint agent path /snmp:snmp/system/location
+<DEBUG> 1-May-2019::16:34:38.348 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem request for callpoint agent path /snmp:snmp/system/location
+<DEBUG> 1-May-2019::16:34:38.348 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem succeeded for callpoint agent path /snmp:snmp/system/location
+<DEBUG> 1-May-2019::16:34:38.348 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem request for callpoint usm path /snmp:snmp/usm/local/user{initial}/name
+<DEBUG> 1-May-2019::16:34:38.349 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem succeeded for callpoint usm path /snmp:snmp/usm/local/user{initial}/name
+<DEBUG> 1-May-2019::16:34:38.349 QSNYDER-M-C5UP ncs[4791]: devel-c get_case request for callpoint usm path /snmp:snmp/usm/local/user{initial}/auth
+<DEBUG> 1-May-2019::16:34:38.350 QSNYDER-M-C5UP ncs[4791]: devel-c get_case succeeded for callpoint usm path /snmp:snmp/usm/local/user{initial}/auth
+<DEBUG> 1-May-2019::16:34:38.351 QSNYDER-M-C5UP ncs[4791]: devel-c get_case request for callpoint usm path /snmp:snmp/usm/local/user{initial}/priv
+<DEBUG> 1-May-2019::16:34:38.351 QSNYDER-M-C5UP ncs[4791]: devel-c get_case succeeded for callpoint usm path /snmp:snmp/usm/local/user{initial}/priv
+<DEBUG> 1-May-2019::16:34:38.352 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem request for callpoint target path /snmp:snmp/target{monitor}/name
+<DEBUG> 1-May-2019::16:34:38.352 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem succeeded for callpoint target path /snmp:snmp/target{monitor}/name
+<DEBUG> 1-May-2019::16:34:38.352 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem request for callpoint target path /snmp:snmp/target{monitor}/udp-port
+<DEBUG> 1-May-2019::16:34:38.353 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem succeeded for callpoint target path /snmp:snmp/target{monitor}/udp-port
+<DEBUG> 1-May-2019::16:34:38.353 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem request for callpoint target path /snmp:snmp/target{monitor}/name
+<DEBUG> 1-May-2019::16:34:38.353 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem succeeded for callpoint target path /snmp:snmp/target{monitor}/name
+<DEBUG> 1-May-2019::16:34:38.353 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem request for callpoint target path /snmp:snmp/target{monitor}/timeout
+<DEBUG> 1-May-2019::16:34:38.354 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem succeeded for callpoint target path /snmp:snmp/target{monitor}/timeout
+<DEBUG> 1-May-2019::16:34:38.354 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem request for callpoint target path /snmp:snmp/target{monitor}/name
+<DEBUG> 1-May-2019::16:34:38.354 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem succeeded for callpoint target path /snmp:snmp/target{monitor}/name
+<DEBUG> 1-May-2019::16:34:38.354 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem request for callpoint target path /snmp:snmp/target{monitor}/retries
+<DEBUG> 1-May-2019::16:34:38.354 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem succeeded for callpoint target path /snmp:snmp/target{monitor}/retries
+<DEBUG> 1-May-2019::16:34:38.355 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem request for callpoint target path /snmp:snmp/target{monitor}/name
+<DEBUG> 1-May-2019::16:34:38.355 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem succeeded for callpoint target path /snmp:snmp/target{monitor}/name
+<DEBUG> 1-May-2019::16:34:38.355 QSNYDER-M-C5UP ncs[4791]: devel-c get_case request for callpoint target path /snmp:snmp/target{monitor}
+<DEBUG> 1-May-2019::16:34:38.355 QSNYDER-M-C5UP ncs[4791]: devel-c get_case succeeded for callpoint target path /snmp:snmp/target{monitor}
+<DEBUG> 1-May-2019::16:34:38.356 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem request for callpoint community path /snmp:snmp/community{public}/index
+<DEBUG> 1-May-2019::16:34:38.356 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem succeeded for callpoint community path /snmp:snmp/community{public}/index
+<DEBUG> 1-May-2019::16:34:38.356 QSNYDER-M-C5UP ncs[4791]: devel-c new_usess db request daemon id: 2
+<DEBUG> 1-May-2019::16:34:38.356 QSNYDER-M-C5UP ncs[4791]: devel-c db reply daemon id: 2
+<DEBUG> 1-May-2019::16:34:38.356 QSNYDER-M-C5UP ncs[4791]: devel-c new_trans request daemon id: 2 thandle: 16
+<DEBUG> 1-May-2019::16:34:38.357 QSNYDER-M-C5UP ncs[4791]: devel-c new_trans succeeded daemon id: 2 session id: 16 worker id: 7
+<DEBUG> 1-May-2019::16:34:38.357 QSNYDER-M-C5UP ncs[4791]: devel-c create request for callpoint 'community-hook' path /snmp:snmp/community{public}
+<DEBUG> 1-May-2019::16:34:38.357 QSNYDER-M-C5UP ncs[4791]: devel-c create succeeded for callpoint 'community-hook' path /snmp:snmp/community{public}
+<DEBUG> 1-May-2019::16:34:38.358 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem request for callpoint notify path /snmp:snmp/notify{foo}/name
+<DEBUG> 1-May-2019::16:34:38.358 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem succeeded for callpoint notify path /snmp:snmp/notify{foo}/name
+<DEBUG> 1-May-2019::16:34:38.358 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem request for callpoint notify path /snmp:snmp/notify{foo}/type
+<DEBUG> 1-May-2019::16:34:38.358 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem succeeded for callpoint notify path /snmp:snmp/notify{foo}/type
+<DEBUG> 1-May-2019::16:34:38.359 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem request for callpoint notify path /snmp:snmp/notify{foo}/name
+<DEBUG> 1-May-2019::16:34:38.359 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem succeeded for callpoint notify path /snmp:snmp/notify{foo}/name
+<DEBUG> 1-May-2019::16:34:38.359 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem request for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/name
+<DEBUG> 1-May-2019::16:34:38.359 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem succeeded for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/name
+<DEBUG> 1-May-2019::16:34:38.360 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem request for callpoint vacm_group path /snmp:snmp/vacm/group{public}/name
+<DEBUG> 1-May-2019::16:34:38.361 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem succeeded for callpoint vacm_group path /snmp:snmp/vacm/group{public}/name
+<DEBUG> 1-May-2019::16:34:38.361 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem request for callpoint vacm_view path /snmp:snmp/vacm/view{internet}/name
+<DEBUG> 1-May-2019::16:34:38.362 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem succeeded for callpoint vacm_view path /snmp:snmp/vacm/view{internet}/name
+<DEBUG> 1-May-2019::16:34:38.362 QSNYDER-M-C5UP ncs[4791]: devel-c get_case request for callpoint vacm_view path /snmp:snmp/vacm/view{internet}/subtree{1.3.6.1}
+<DEBUG> 1-May-2019::16:34:38.362 QSNYDER-M-C5UP ncs[4791]: devel-c get_case succeeded for callpoint vacm_view path /snmp:snmp/vacm/view{internet}/subtree{1.3.6.1}
+<DEBUG> 1-May-2019::16:34:38.363 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem request for callpoint vacm_view path /snmp:snmp/vacm/view{restricted}/name
+<DEBUG> 1-May-2019::16:34:38.363 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem succeeded for callpoint vacm_view path /snmp:snmp/vacm/view{restricted}/name
+<DEBUG> 1-May-2019::16:34:38.363 QSNYDER-M-C5UP ncs[4791]: devel-c get_case request for callpoint vacm_view path /snmp:snmp/vacm/view{restricted}/subtree{1.3.6.1.6.3.11.2.1}
+<DEBUG> 1-May-2019::16:34:38.364 QSNYDER-M-C5UP ncs[4791]: devel-c get_case succeeded for callpoint vacm_view path /snmp:snmp/vacm/view{restricted}/subtree{1.3.6.1.6.3.11.2.1}
+<DEBUG> 1-May-2019::16:34:38.364 QSNYDER-M-C5UP ncs[4791]: devel-c get_case request for callpoint vacm_view path /snmp:snmp/vacm/view{restricted}/subtree{1.3.6.1.6.3.15.1.1}
+<DEBUG> 1-May-2019::16:34:38.364 QSNYDER-M-C5UP ncs[4791]: devel-c get_case succeeded for callpoint vacm_view path /snmp:snmp/vacm/view{restricted}/subtree{1.3.6.1.6.3.15.1.1}
+<DEBUG> 1-May-2019::16:34:38.364 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=23 thandle=16: entering validate phase for running...
+<DEBUG> 1-May-2019::16:34:38.364 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=23 thandle=16: validate: run pre-trans-lock service callbacks...
+<DEBUG> 1-May-2019::16:34:38.364 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=23 thandle=16: validate: run transforms and transaction hooks...
+<DEBUG> 1-May-2019::16:34:38.365 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=23 thandle=16: validate: run transforms and transaction hooks done
+<DEBUG> 1-May-2019::16:34:38.365 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=23 thandle=16: validate: pre-trans-lock service callbacks done
+<DEBUG> 1-May-2019::16:34:38.365 QSNYDER-M-C5UP ncs[4791]: devel-c new_usess db request daemon id: 4
+<DEBUG> 1-May-2019::16:34:38.365 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=23 thandle=16: validate: grabbing transaction lock...
+<DEBUG> 1-May-2019::16:34:38.365 QSNYDER-M-C5UP ncs[4791]: devel-c db reply daemon id: 4
+<DEBUG> 1-May-2019::16:34:38.365 QSNYDER-M-C5UP ncs[4791]: devel-c new_trans request daemon id: 4 thandle: 16
+<DEBUG> 1-May-2019::16:34:38.365 QSNYDER-M-C5UP ncs[4791]: devel-c new_trans succeeded daemon id: 4 session id: 16 worker id: 1
+<DEBUG> 1-May-2019::16:34:38.365 QSNYDER-M-C5UP ncs[4791]: devel-c new_usess db request daemon id: 0
+<DEBUG> 1-May-2019::16:34:38.365 QSNYDER-M-C5UP ncs[4791]: devel-c db reply daemon id: 0
+<DEBUG> 1-May-2019::16:34:38.365 QSNYDER-M-C5UP ncs[4791]: devel-c new_trans request daemon id: 0 thandle: 16
+<DEBUG> 1-May-2019::16:34:38.365 QSNYDER-M-C5UP ncs[4791]: devel-c new_trans succeeded daemon id: 0 session id: 16 worker id: 1
+<DEBUG> 1-May-2019::16:34:38.365 QSNYDER-M-C5UP ncs[4791]: devel-c trans_lock request daemon id: 4 session id: 16
+<DEBUG> 1-May-2019::16:34:38.365 QSNYDER-M-C5UP ncs[4791]: devel-c trans_lock succeeded daemon id: 4 session id: 16
+<DEBUG> 1-May-2019::16:34:38.365 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=23 thandle=16: validate: grabbing transaction lock ok
+<DEBUG> 1-May-2019::16:34:38.366 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=23 thandle=16: validate: creating rollback file...
+<DEBUG> 1-May-2019::16:34:38.368 QSNYDER-M-C5UP ncs[4791]: devel-c new_trans request daemon id: 1 thandle: 17
+<DEBUG> 1-May-2019::16:34:38.368 QSNYDER-M-C5UP ncs[4791]: devel-c new_trans succeeded daemon id: 1 session id: 17 worker id: 4
+<DEBUG> 1-May-2019::16:34:38.368 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem request for callpoint agent path /snmp:snmp/agent/enabled
+<DEBUG> 1-May-2019::16:34:38.369 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem succeeded for callpoint agent path /snmp:snmp/agent/enabled
+<DEBUG> 1-May-2019::16:34:38.369 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem request for callpoint agent path /snmp:snmp/agent/enabled
+<DEBUG> 1-May-2019::16:34:38.369 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem succeeded for callpoint agent path /snmp:snmp/agent/enabled
+<DEBUG> 1-May-2019::16:34:38.369 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem request for callpoint agent path /snmp:snmp/agent/enabled
+<DEBUG> 1-May-2019::16:34:38.369 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem succeeded for callpoint agent path /snmp:snmp/agent/enabled
+<DEBUG> 1-May-2019::16:34:38.370 QSNYDER-M-C5UP ncs[4791]: devel-c close_trans request daemon id: 1 session id: 17
+<DEBUG> 1-May-2019::16:34:38.371 QSNYDER-M-C5UP ncs[4791]: devel-c close_trans succeeded daemon id: 1 session id: 17
+<DEBUG> 1-May-2019::16:34:38.371 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=23 thandle=16: validate: creating rollback file ok
+<DEBUG> 1-May-2019::16:34:38.372 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=23 thandle=16: validate: run transforms and transaction hooks...
+<DEBUG> 1-May-2019::16:34:38.372 QSNYDER-M-C5UP ncs[4791]: devel-c create request for callpoint agent path /snmp:snmp/agent/engine-id
+<DEBUG> 1-May-2019::16:34:38.372 QSNYDER-M-C5UP ncs[4791]: devel-c create succeeded for callpoint agent path /snmp:snmp/agent/engine-id
+<DEBUG> 1-May-2019::16:34:38.372 QSNYDER-M-C5UP ncs[4791]: devel-c set_elem request for callpoint agent path /snmp:snmp/agent/engine-id/enterprise-number
+<DEBUG> 1-May-2019::16:34:38.373 QSNYDER-M-C5UP ncs[4791]: devel-c set_elem succeeded for callpoint agent path /snmp:snmp/agent/engine-id/enterprise-number
+<DEBUG> 1-May-2019::16:34:38.374 QSNYDER-M-C5UP ncs[4791]: devel-c set_elem request for callpoint agent path /snmp:snmp/agent/engine-id/from-text
+<DEBUG> 1-May-2019::16:34:38.374 QSNYDER-M-C5UP ncs[4791]: devel-c set_elem succeeded for callpoint agent path /snmp:snmp/agent/engine-id/from-text
+<DEBUG> 1-May-2019::16:34:38.374 QSNYDER-M-C5UP ncs[4791]: devel-c set_elem request for callpoint agent path /snmp:snmp/agent/enabled
+<DEBUG> 1-May-2019::16:34:38.375 QSNYDER-M-C5UP ncs[4791]: devel-c set_elem succeeded for callpoint agent path /snmp:snmp/agent/enabled
+<DEBUG> 1-May-2019::16:34:38.375 QSNYDER-M-C5UP ncs[4791]: devel-c create request for callpoint agent path /snmp:snmp/agent/version/v1
+<DEBUG> 1-May-2019::16:34:38.376 QSNYDER-M-C5UP ncs[4791]: devel-c create succeeded for callpoint agent path /snmp:snmp/agent/version/v1
+<DEBUG> 1-May-2019::16:34:38.376 QSNYDER-M-C5UP ncs[4791]: devel-c create request for callpoint agent path /snmp:snmp/agent/version/v2c
+<DEBUG> 1-May-2019::16:34:38.376 QSNYDER-M-C5UP ncs[4791]: devel-c create succeeded for callpoint agent path /snmp:snmp/agent/version/v2c
+<DEBUG> 1-May-2019::16:34:38.376 QSNYDER-M-C5UP ncs[4791]: devel-c create request for callpoint agent path /snmp:snmp/agent/version/v3
+<DEBUG> 1-May-2019::16:34:38.377 QSNYDER-M-C5UP ncs[4791]: devel-c create succeeded for callpoint agent path /snmp:snmp/agent/version/v3
+<DEBUG> 1-May-2019::16:34:38.377 QSNYDER-M-C5UP ncs[4791]: devel-c create request for callpoint usm path /snmp:snmp/usm/local/user{initial}
+<DEBUG> 1-May-2019::16:34:38.379 QSNYDER-M-C5UP ncs[4791]: devel-c create succeeded for callpoint usm path /snmp:snmp/usm/local/user{initial}
+<DEBUG> 1-May-2019::16:34:38.379 QSNYDER-M-C5UP ncs[4791]: devel-c create request for callpoint usm path /snmp:snmp/usm/local/user{initial}/auth
+<DEBUG> 1-May-2019::16:34:38.379 QSNYDER-M-C5UP ncs[4791]: devel-c create succeeded for callpoint usm path /snmp:snmp/usm/local/user{initial}/auth
+<DEBUG> 1-May-2019::16:34:38.379 QSNYDER-M-C5UP ncs[4791]: devel-c set_case request for callpoint usm path /snmp:snmp/usm/local/user{initial}/auth
+<DEBUG> 1-May-2019::16:34:38.380 QSNYDER-M-C5UP ncs[4791]: devel-c set_case succeeded for callpoint usm path /snmp:snmp/usm/local/user{initial}/auth
+<DEBUG> 1-May-2019::16:34:38.380 QSNYDER-M-C5UP ncs[4791]: devel-c create request for callpoint usm path /snmp:snmp/usm/local/user{initial}/auth/sha
+<DEBUG> 1-May-2019::16:34:38.380 QSNYDER-M-C5UP ncs[4791]: devel-c create succeeded for callpoint usm path /snmp:snmp/usm/local/user{initial}/auth/sha
+<DEBUG> 1-May-2019::16:34:38.380 QSNYDER-M-C5UP ncs[4791]: devel-c set_case request for callpoint usm path /snmp:snmp/usm/local/user{initial}/auth/sha
+<DEBUG> 1-May-2019::16:34:38.381 QSNYDER-M-C5UP ncs[4791]: devel-c set_case succeeded for callpoint usm path /snmp:snmp/usm/local/user{initial}/auth/sha
+<DEBUG> 1-May-2019::16:34:38.381 QSNYDER-M-C5UP ncs[4791]: devel-c set_elem request for callpoint usm path /snmp:snmp/usm/local/user{initial}/auth/sha/password
+<DEBUG> 1-May-2019::16:34:38.406 QSNYDER-M-C5UP ncs[4791]: devel-c set_elem succeeded for callpoint usm path /snmp:snmp/usm/local/user{initial}/auth/sha/password
+<DEBUG> 1-May-2019::16:34:38.406 QSNYDER-M-C5UP ncs[4791]: devel-c create request for callpoint usm path /snmp:snmp/usm/local/user{initial}/priv
+<DEBUG> 1-May-2019::16:34:38.407 QSNYDER-M-C5UP ncs[4791]: devel-c create succeeded for callpoint usm path /snmp:snmp/usm/local/user{initial}/priv
+<DEBUG> 1-May-2019::16:34:38.407 QSNYDER-M-C5UP ncs[4791]: devel-c set_case request for callpoint usm path /snmp:snmp/usm/local/user{initial}/priv
+<DEBUG> 1-May-2019::16:34:38.408 QSNYDER-M-C5UP ncs[4791]: devel-c set_case succeeded for callpoint usm path /snmp:snmp/usm/local/user{initial}/priv
+<DEBUG> 1-May-2019::16:34:38.408 QSNYDER-M-C5UP ncs[4791]: devel-c create request for callpoint usm path /snmp:snmp/usm/local/user{initial}/priv/aes
+<DEBUG> 1-May-2019::16:34:38.408 QSNYDER-M-C5UP ncs[4791]: devel-c create succeeded for callpoint usm path /snmp:snmp/usm/local/user{initial}/priv/aes
+<DEBUG> 1-May-2019::16:34:38.408 QSNYDER-M-C5UP ncs[4791]: devel-c set_case request for callpoint usm path /snmp:snmp/usm/local/user{initial}/priv/aes
+<DEBUG> 1-May-2019::16:34:38.409 QSNYDER-M-C5UP ncs[4791]: devel-c set_case succeeded for callpoint usm path /snmp:snmp/usm/local/user{initial}/priv/aes
+<DEBUG> 1-May-2019::16:34:38.409 QSNYDER-M-C5UP ncs[4791]: devel-c set_elem request for callpoint usm path /snmp:snmp/usm/local/user{initial}/priv/aes/password
+<DEBUG> 1-May-2019::16:34:38.433 QSNYDER-M-C5UP ncs[4791]: devel-c set_elem succeeded for callpoint usm path /snmp:snmp/usm/local/user{initial}/priv/aes/password
+<DEBUG> 1-May-2019::16:34:38.433 QSNYDER-M-C5UP ncs[4791]: devel-c create request for callpoint target path /snmp:snmp/target{monitor}
+<DEBUG> 1-May-2019::16:34:38.434 QSNYDER-M-C5UP ncs[4791]: devel-c create succeeded for callpoint target path /snmp:snmp/target{monitor}
+<DEBUG> 1-May-2019::16:34:38.434 QSNYDER-M-C5UP ncs[4791]: devel-c set_case request for callpoint target path /snmp:snmp/target{monitor}
+<DEBUG> 1-May-2019::16:34:38.435 QSNYDER-M-C5UP ncs[4791]: devel-c set_case succeeded for callpoint target path /snmp:snmp/target{monitor}
+<DEBUG> 1-May-2019::16:34:38.435 QSNYDER-M-C5UP ncs[4791]: devel-c set_elem request for callpoint target path /snmp:snmp/target{monitor}/ip
+<DEBUG> 1-May-2019::16:34:38.436 QSNYDER-M-C5UP ncs[4791]: devel-c set_elem succeeded for callpoint target path /snmp:snmp/target{monitor}/ip
+<DEBUG> 1-May-2019::16:34:38.436 QSNYDER-M-C5UP ncs[4791]: devel-c set_elem request for callpoint target path /snmp:snmp/target{monitor}/udp-port
+<DEBUG> 1-May-2019::16:34:38.436 QSNYDER-M-C5UP ncs[4791]: devel-c set_elem succeeded for callpoint target path /snmp:snmp/target{monitor}/udp-port
+<DEBUG> 1-May-2019::16:34:38.436 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem request for callpoint target path /snmp:snmp/target{monitor}/tag
+<DEBUG> 1-May-2019::16:34:38.437 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem succeeded for callpoint target path /snmp:snmp/target{monitor}/tag
+<DEBUG> 1-May-2019::16:34:38.437 QSNYDER-M-C5UP ncs[4791]: devel-c set_elem request for callpoint target path /snmp:snmp/target{monitor}/timeout
+<DEBUG> 1-May-2019::16:34:38.437 QSNYDER-M-C5UP ncs[4791]: devel-c set_elem succeeded for callpoint target path /snmp:snmp/target{monitor}/timeout
+<DEBUG> 1-May-2019::16:34:38.437 QSNYDER-M-C5UP ncs[4791]: devel-c set_elem request for callpoint target path /snmp:snmp/target{monitor}/retries
+<DEBUG> 1-May-2019::16:34:38.437 QSNYDER-M-C5UP ncs[4791]: devel-c set_elem succeeded for callpoint target path /snmp:snmp/target{monitor}/retries
+<DEBUG> 1-May-2019::16:34:38.437 QSNYDER-M-C5UP ncs[4791]: devel-c set_elem request for callpoint target path /snmp:snmp/target{monitor}/v2c/sec-name
+<DEBUG> 1-May-2019::16:34:38.438 QSNYDER-M-C5UP ncs[4791]: devel-c set_elem succeeded for callpoint target path /snmp:snmp/target{monitor}/v2c/sec-name
+<DEBUG> 1-May-2019::16:34:38.438 QSNYDER-M-C5UP ncs[4791]: devel-c create request for callpoint community path /snmp:snmp/community{public}
+<DEBUG> 1-May-2019::16:34:38.439 QSNYDER-M-C5UP ncs[4791]: devel-c create succeeded for callpoint community path /snmp:snmp/community{public}
+<DEBUG> 1-May-2019::16:34:38.439 QSNYDER-M-C5UP ncs[4791]: devel-c set_elem request for callpoint community path /snmp:snmp/community{public}/sec-name
+<DEBUG> 1-May-2019::16:34:38.439 QSNYDER-M-C5UP ncs[4791]: devel-c set_elem succeeded for callpoint community path /snmp:snmp/community{public}/sec-name
+<DEBUG> 1-May-2019::16:34:38.440 QSNYDER-M-C5UP ncs[4791]: devel-c create request for callpoint notify path /snmp:snmp/notify{foo}
+<DEBUG> 1-May-2019::16:34:38.440 QSNYDER-M-C5UP ncs[4791]: devel-c create succeeded for callpoint notify path /snmp:snmp/notify{foo}
+<DEBUG> 1-May-2019::16:34:38.440 QSNYDER-M-C5UP ncs[4791]: devel-c set_elem request for callpoint notify path /snmp:snmp/notify{foo}/tag
+<DEBUG> 1-May-2019::16:34:38.440 QSNYDER-M-C5UP ncs[4791]: devel-c set_elem succeeded for callpoint notify path /snmp:snmp/notify{foo}/tag
+<DEBUG> 1-May-2019::16:34:38.440 QSNYDER-M-C5UP ncs[4791]: devel-c set_elem request for callpoint notify path /snmp:snmp/notify{foo}/type
+<DEBUG> 1-May-2019::16:34:38.441 QSNYDER-M-C5UP ncs[4791]: devel-c set_elem succeeded for callpoint notify path /snmp:snmp/notify{foo}/type
+<DEBUG> 1-May-2019::16:34:38.441 QSNYDER-M-C5UP ncs[4791]: devel-c create request for callpoint vacm_group path /snmp:snmp/vacm/group{initial}
+<DEBUG> 1-May-2019::16:34:38.441 QSNYDER-M-C5UP ncs[4791]: devel-c create succeeded for callpoint vacm_group path /snmp:snmp/vacm/group{initial}
+<DEBUG> 1-May-2019::16:34:38.441 QSNYDER-M-C5UP ncs[4791]: devel-c create request for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/member{initial}
+<DEBUG> 1-May-2019::16:34:38.441 QSNYDER-M-C5UP ncs[4791]: devel-c create succeeded for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/member{initial}
+<DEBUG> 1-May-2019::16:34:38.441 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem request for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/member{initial}/sec-model
+<DEBUG> 1-May-2019::16:34:38.441 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem succeeded for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/member{initial}/sec-model
+<DEBUG> 1-May-2019::16:34:38.441 QSNYDER-M-C5UP ncs[4791]: devel-c create request for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/access{usm no-auth-no-priv}
+<DEBUG> 1-May-2019::16:34:38.442 QSNYDER-M-C5UP ncs[4791]: devel-c create succeeded for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/access{usm no-auth-no-priv}
+<DEBUG> 1-May-2019::16:34:38.442 QSNYDER-M-C5UP ncs[4791]: devel-c set_elem request for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/access{usm no-auth-no-priv}/read-view
+<DEBUG> 1-May-2019::16:34:38.442 QSNYDER-M-C5UP ncs[4791]: devel-c set_elem succeeded for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/access{usm no-auth-no-priv}/read-view
+<DEBUG> 1-May-2019::16:34:38.442 QSNYDER-M-C5UP ncs[4791]: devel-c set_elem request for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/access{usm no-auth-no-priv}/notify-view
+<DEBUG> 1-May-2019::16:34:38.443 QSNYDER-M-C5UP ncs[4791]: devel-c set_elem succeeded for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/access{usm no-auth-no-priv}/notify-view
+<DEBUG> 1-May-2019::16:34:38.443 QSNYDER-M-C5UP ncs[4791]: devel-c create request for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/access{usm auth-no-priv}
+<DEBUG> 1-May-2019::16:34:38.443 QSNYDER-M-C5UP ncs[4791]: devel-c create succeeded for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/access{usm auth-no-priv}
+<DEBUG> 1-May-2019::16:34:38.444 QSNYDER-M-C5UP ncs[4791]: devel-c set_elem request for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/access{usm auth-no-priv}/read-view
+<DEBUG> 1-May-2019::16:34:38.444 QSNYDER-M-C5UP ncs[4791]: devel-c set_elem succeeded for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/access{usm auth-no-priv}/read-view
+<DEBUG> 1-May-2019::16:34:38.444 QSNYDER-M-C5UP ncs[4791]: devel-c set_elem request for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/access{usm auth-no-priv}/notify-view
+<DEBUG> 1-May-2019::16:34:38.445 QSNYDER-M-C5UP ncs[4791]: devel-c set_elem succeeded for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/access{usm auth-no-priv}/notify-view
+<DEBUG> 1-May-2019::16:34:38.445 QSNYDER-M-C5UP ncs[4791]: devel-c create request for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/access{usm auth-priv}
+<DEBUG> 1-May-2019::16:34:38.445 QSNYDER-M-C5UP ncs[4791]: devel-c create succeeded for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/access{usm auth-priv}
+<DEBUG> 1-May-2019::16:34:38.445 QSNYDER-M-C5UP ncs[4791]: devel-c set_elem request for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/access{usm auth-priv}/read-view
+<DEBUG> 1-May-2019::16:34:38.446 QSNYDER-M-C5UP ncs[4791]: devel-c set_elem succeeded for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/access{usm auth-priv}/read-view
+<DEBUG> 1-May-2019::16:34:38.446 QSNYDER-M-C5UP ncs[4791]: devel-c set_elem request for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/access{usm auth-priv}/notify-view
+<DEBUG> 1-May-2019::16:34:38.446 QSNYDER-M-C5UP ncs[4791]: devel-c set_elem succeeded for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/access{usm auth-priv}/notify-view
+<DEBUG> 1-May-2019::16:34:38.446 QSNYDER-M-C5UP ncs[4791]: devel-c create request for callpoint vacm_group path /snmp:snmp/vacm/group{public}
+<DEBUG> 1-May-2019::16:34:38.446 QSNYDER-M-C5UP ncs[4791]: devel-c create succeeded for callpoint vacm_group path /snmp:snmp/vacm/group{public}
+<DEBUG> 1-May-2019::16:34:38.446 QSNYDER-M-C5UP ncs[4791]: devel-c create request for callpoint vacm_group path /snmp:snmp/vacm/group{public}/member{public}
+<DEBUG> 1-May-2019::16:34:38.447 QSNYDER-M-C5UP ncs[4791]: devel-c create succeeded for callpoint vacm_group path /snmp:snmp/vacm/group{public}/member{public}
+<DEBUG> 1-May-2019::16:34:38.447 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem request for callpoint vacm_group path /snmp:snmp/vacm/group{public}/member{public}/sec-model
+<DEBUG> 1-May-2019::16:34:38.447 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem succeeded for callpoint vacm_group path /snmp:snmp/vacm/group{public}/member{public}/sec-model
+<DEBUG> 1-May-2019::16:34:38.447 QSNYDER-M-C5UP ncs[4791]: devel-c create request for callpoint vacm_group path /snmp:snmp/vacm/group{public}/access{any no-auth-no-priv}
+<DEBUG> 1-May-2019::16:34:38.448 QSNYDER-M-C5UP ncs[4791]: devel-c create succeeded for callpoint vacm_group path /snmp:snmp/vacm/group{public}/access{any no-auth-no-priv}
+<DEBUG> 1-May-2019::16:34:38.448 QSNYDER-M-C5UP ncs[4791]: devel-c set_elem request for callpoint vacm_group path /snmp:snmp/vacm/group{public}/access{any no-auth-no-priv}/read-view
+<DEBUG> 1-May-2019::16:34:38.448 QSNYDER-M-C5UP ncs[4791]: devel-c set_elem succeeded for callpoint vacm_group path /snmp:snmp/vacm/group{public}/access{any no-auth-no-priv}/read-view
+<DEBUG> 1-May-2019::16:34:38.448 QSNYDER-M-C5UP ncs[4791]: devel-c set_elem request for callpoint vacm_group path /snmp:snmp/vacm/group{public}/access{any no-auth-no-priv}/notify-view
+<DEBUG> 1-May-2019::16:34:38.449 QSNYDER-M-C5UP ncs[4791]: devel-c set_elem succeeded for callpoint vacm_group path /snmp:snmp/vacm/group{public}/access{any no-auth-no-priv}/notify-view
+<DEBUG> 1-May-2019::16:34:38.449 QSNYDER-M-C5UP ncs[4791]: devel-c create request for callpoint vacm_view path /snmp:snmp/vacm/view{internet}
+<DEBUG> 1-May-2019::16:34:38.449 QSNYDER-M-C5UP ncs[4791]: devel-c create succeeded for callpoint vacm_view path /snmp:snmp/vacm/view{internet}
+<DEBUG> 1-May-2019::16:34:38.449 QSNYDER-M-C5UP ncs[4791]: devel-c create request for callpoint vacm_view path /snmp:snmp/vacm/view{internet}/subtree{1.3.6.1}
+<DEBUG> 1-May-2019::16:34:38.450 QSNYDER-M-C5UP ncs[4791]: devel-c create succeeded for callpoint vacm_view path /snmp:snmp/vacm/view{internet}/subtree{1.3.6.1}
+<DEBUG> 1-May-2019::16:34:38.450 QSNYDER-M-C5UP ncs[4791]: devel-c set_case request for callpoint vacm_view path /snmp:snmp/vacm/view{internet}/subtree{1.3.6.1}
+<DEBUG> 1-May-2019::16:34:38.450 QSNYDER-M-C5UP ncs[4791]: devel-c set_case succeeded for callpoint vacm_view path /snmp:snmp/vacm/view{internet}/subtree{1.3.6.1}
+<DEBUG> 1-May-2019::16:34:38.450 QSNYDER-M-C5UP ncs[4791]: devel-c create request for callpoint vacm_view path /snmp:snmp/vacm/view{internet}/subtree{1.3.6.1}/included
+<DEBUG> 1-May-2019::16:34:38.450 QSNYDER-M-C5UP ncs[4791]: devel-c create succeeded for callpoint vacm_view path /snmp:snmp/vacm/view{internet}/subtree{1.3.6.1}/included
+<DEBUG> 1-May-2019::16:34:38.450 QSNYDER-M-C5UP ncs[4791]: devel-c create request for callpoint vacm_view path /snmp:snmp/vacm/view{restricted}
+<DEBUG> 1-May-2019::16:34:38.450 QSNYDER-M-C5UP ncs[4791]: devel-c create succeeded for callpoint vacm_view path /snmp:snmp/vacm/view{restricted}
+<DEBUG> 1-May-2019::16:34:38.450 QSNYDER-M-C5UP ncs[4791]: devel-c create request for callpoint vacm_view path /snmp:snmp/vacm/view{restricted}/subtree{1.3.6.1.6.3.11.2.1}
+<DEBUG> 1-May-2019::16:34:38.451 QSNYDER-M-C5UP ncs[4791]: devel-c create succeeded for callpoint vacm_view path /snmp:snmp/vacm/view{restricted}/subtree{1.3.6.1.6.3.11.2.1}
+<DEBUG> 1-May-2019::16:34:38.451 QSNYDER-M-C5UP ncs[4791]: devel-c set_case request for callpoint vacm_view path /snmp:snmp/vacm/view{restricted}/subtree{1.3.6.1.6.3.11.2.1}
+<DEBUG> 1-May-2019::16:34:38.451 QSNYDER-M-C5UP ncs[4791]: devel-c set_case succeeded for callpoint vacm_view path /snmp:snmp/vacm/view{restricted}/subtree{1.3.6.1.6.3.11.2.1}
+<DEBUG> 1-May-2019::16:34:38.451 QSNYDER-M-C5UP ncs[4791]: devel-c create request for callpoint vacm_view path /snmp:snmp/vacm/view{restricted}/subtree{1.3.6.1.6.3.11.2.1}/included
+<DEBUG> 1-May-2019::16:34:38.452 QSNYDER-M-C5UP ncs[4791]: devel-c create succeeded for callpoint vacm_view path /snmp:snmp/vacm/view{restricted}/subtree{1.3.6.1.6.3.11.2.1}/included
+<DEBUG> 1-May-2019::16:34:38.452 QSNYDER-M-C5UP ncs[4791]: devel-c create request for callpoint vacm_view path /snmp:snmp/vacm/view{restricted}/subtree{1.3.6.1.6.3.15.1.1}
+<DEBUG> 1-May-2019::16:34:38.452 QSNYDER-M-C5UP ncs[4791]: devel-c create succeeded for callpoint vacm_view path /snmp:snmp/vacm/view{restricted}/subtree{1.3.6.1.6.3.15.1.1}
+<DEBUG> 1-May-2019::16:34:38.452 QSNYDER-M-C5UP ncs[4791]: devel-c set_case request for callpoint vacm_view path /snmp:snmp/vacm/view{restricted}/subtree{1.3.6.1.6.3.15.1.1}
+<DEBUG> 1-May-2019::16:34:38.453 QSNYDER-M-C5UP ncs[4791]: devel-c set_case succeeded for callpoint vacm_view path /snmp:snmp/vacm/view{restricted}/subtree{1.3.6.1.6.3.15.1.1}
+<DEBUG> 1-May-2019::16:34:38.453 QSNYDER-M-C5UP ncs[4791]: devel-c create request for callpoint vacm_view path /snmp:snmp/vacm/view{restricted}/subtree{1.3.6.1.6.3.15.1.1}/included
+<DEBUG> 1-May-2019::16:34:38.453 QSNYDER-M-C5UP ncs[4791]: devel-c create succeeded for callpoint vacm_view path /snmp:snmp/vacm/view{restricted}/subtree{1.3.6.1.6.3.15.1.1}/included
+<DEBUG> 1-May-2019::16:34:38.453 QSNYDER-M-C5UP ncs[4791]: devel-c set_elem request for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/member{initial}/sec-model
+<DEBUG> 1-May-2019::16:34:38.454 QSNYDER-M-C5UP ncs[4791]: devel-c set_elem succeeded for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/member{initial}/sec-model
+<DEBUG> 1-May-2019::16:34:38.454 QSNYDER-M-C5UP ncs[4791]: devel-c set_elem request for callpoint vacm_group path /snmp:snmp/vacm/group{public}/member{public}/sec-model
+<DEBUG> 1-May-2019::16:34:38.455 QSNYDER-M-C5UP ncs[4791]: devel-c set_elem succeeded for callpoint vacm_group path /snmp:snmp/vacm/group{public}/member{public}/sec-model
+<DEBUG> 1-May-2019::16:34:38.455 QSNYDER-M-C5UP ncs[4791]: devel-c set_elem request for callpoint target path /snmp:snmp/target{monitor}/tag
+<DEBUG> 1-May-2019::16:34:38.455 QSNYDER-M-C5UP ncs[4791]: devel-c set_elem succeeded for callpoint target path /snmp:snmp/target{monitor}/tag
+<DEBUG> 1-May-2019::16:34:38.455 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=23 thandle=16: validate: run transforms and transaction hooks done
+<DEBUG> 1-May-2019::16:34:38.456 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=23 thandle=16: validate: mark inactive...
+<DEBUG> 1-May-2019::16:34:38.456 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem request for callpoint agent path /snmp:snmp/agent/enabled
+<DEBUG> 1-May-2019::16:34:38.457 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem succeeded for callpoint agent path /snmp:snmp/agent/enabled
+<DEBUG> 1-May-2019::16:34:38.457 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=23 thandle=16: validate: mark inactive ok
+<DEBUG> 1-May-2019::16:34:38.458 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=23 thandle=16: validate: pre validate...
+<DEBUG> 1-May-2019::16:34:38.459 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=23 thandle=16: validate: pre validate ok
+<DEBUG> 1-May-2019::16:34:38.459 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=23 thandle=16: validate: run validation over the change set...
+<DEBUG> 1-May-2019::16:34:38.461 QSNYDER-M-C5UP ncs[4791]: devel-c new_validate request daemon id: 1 thandle: 16
+<DEBUG> 1-May-2019::16:34:38.461 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=23 thandle=16: snmp-config-transform: validate
+<DEBUG> 1-May-2019::16:34:38.461 QSNYDER-M-C5UP ncs[4791]: devel-c new_validate succeeded daemon id: 1 session id: 16 worker id: 4
+<DEBUG> 1-May-2019::16:34:38.462 QSNYDER-M-C5UP ncs[4791]: devel-c validate request for path /snmp:snmp/vacm/group
+<DEBUG> 1-May-2019::16:34:38.462 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=23 thandle=16: snmp-config-transform: validate: vacm-group
+<DEBUG> 1-May-2019::16:34:38.462 QSNYDER-M-C5UP ncs[4791]: devel-c validate succeeded for path /snmp:snmp/vacm/group
+<DEBUG> 1-May-2019::16:34:38.470 QSNYDER-M-C5UP ncs[4791]: devel-c get_next request for callpoint community path /snmp:snmp/community
+<DEBUG> 1-May-2019::16:34:38.471 QSNYDER-M-C5UP ncs[4791]: devel-c get_next succeeded for callpoint community path /snmp:snmp/community
+<DEBUG> 1-May-2019::16:34:38.471 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=23 thandle=16: validate: validation over the change set done
+<DEBUG> 1-May-2019::16:34:38.471 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=23 thandle=16: validate: run dependency-triggered validation...
+<DEBUG> 1-May-2019::16:34:38.471 QSNYDER-M-C5UP ncs[4791]: devel-c get_next request for callpoint community path /snmp:snmp/community
+<DEBUG> 1-May-2019::16:34:38.472 QSNYDER-M-C5UP ncs[4791]: devel-c get_next succeeded for callpoint community path /snmp:snmp/community
+<DEBUG> 1-May-2019::16:34:38.472 QSNYDER-M-C5UP ncs[4791]: devel-c get_next request for callpoint community path /snmp:snmp/community
+<DEBUG> 1-May-2019::16:34:38.472 QSNYDER-M-C5UP ncs[4791]: devel-c get_next succeeded for callpoint community path /snmp:snmp/community
+<DEBUG> 1-May-2019::16:34:38.472 QSNYDER-M-C5UP ncs[4791]: devel-c get_next request for callpoint notify path /snmp:snmp/notify
+<DEBUG> 1-May-2019::16:34:38.472 QSNYDER-M-C5UP ncs[4791]: devel-c get_next succeeded for callpoint notify path /snmp:snmp/notify
+<DEBUG> 1-May-2019::16:34:38.473 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem request for callpoint notify path /snmp:snmp/notify{foo}/type
+<DEBUG> 1-May-2019::16:34:38.473 QSNYDER-M-C5UP ncs[4791]: devel-c get_elem succeeded for callpoint notify path /snmp:snmp/notify{foo}/type
+<DEBUG> 1-May-2019::16:34:38.473 QSNYDER-M-C5UP ncs[4791]: devel-c get_next request for callpoint notify path /snmp:snmp/notify
+<DEBUG> 1-May-2019::16:34:38.473 QSNYDER-M-C5UP ncs[4791]: devel-c get_next succeeded for callpoint notify path /snmp:snmp/notify
+<DEBUG> 1-May-2019::16:34:38.474 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=23 thandle=16: validate: dependency-triggered validation done
+<DEBUG> 1-May-2019::16:34:38.474 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=23 thandle=16: validate: check configuration policies...
+<DEBUG> 1-May-2019::16:34:38.474 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=23 thandle=16: validate: configuration policies done
+<DEBUG> 1-May-2019::16:34:38.474 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=23 thandle=16: entering write-start phase for running...
+<DEBUG> 1-May-2019::16:34:38.474 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=23 thandle=16: cdb: write-start
+<DEBUG> 1-May-2019::16:34:38.477 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=23 thandle=16: entering prepare phase for running...
+<DEBUG> 1-May-2019::16:34:38.477 QSNYDER-M-C5UP ncs[4791]: devel-c prepare request daemon id: 0 session id: 16
+<DEBUG> 1-May-2019::16:34:38.477 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=23 thandle=16: cdb: prepare
+<DEBUG> 1-May-2019::16:34:38.477 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=23 thandle=16: ncs-internal-device-mgr: prepare
+<DEBUG> 1-May-2019::16:34:38.478 QSNYDER-M-C5UP ncs[4791]: devel-c prepare succeeded daemon id: 0 session id: 16
+<DEBUG> 1-May-2019::16:34:38.478 QSNYDER-M-C5UP ncs[4791]: devel-c close_validate request daemon id: 1 session id: 16
+<DEBUG> 1-May-2019::16:34:38.478 QSNYDER-M-C5UP ncs[4791]: devel-c close_validate succeeded daemon id: 1 session id: 16
+<DEBUG> 1-May-2019::16:34:38.479 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=23 thandle=16: entering commit phase for running...
+<DEBUG> 1-May-2019::16:34:38.479 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=23 thandle=16: cdb: commit
+<DEBUG> 1-May-2019::16:34:38.486 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=23 thandle=16: ncs-internal-service-mux: commit
+<DEBUG> 1-May-2019::16:34:38.486 QSNYDER-M-C5UP ncs[4791]: devel-c commit request daemon id: 4 session id: 16
+<DEBUG> 1-May-2019::16:34:38.486 QSNYDER-M-C5UP ncs[4791]: ncs commit progress db=running usid=23 thandle=16: ncs-internal-device-mgr: commit
+<DEBUG> 1-May-2019::16:34:38.486 QSNYDER-M-C5UP ncs[4791]: devel-c commit succeeded daemon id: 4 session id: 16
+<DEBUG> 1-May-2019::16:34:38.486 QSNYDER-M-C5UP ncs[4791]: devel-c commit request daemon id: 0 session id: 16
+<DEBUG> 1-May-2019::16:34:38.486 QSNYDER-M-C5UP ncs[4791]: devel-c commit succeeded daemon id: 0 session id: 16
+<DEBUG> 1-May-2019::16:34:38.486 QSNYDER-M-C5UP ncs[4791]: devel-c close_trans request daemon id: 4 session id: 16
+<DEBUG> 1-May-2019::16:34:38.487 QSNYDER-M-C5UP ncs[4791]: devel-c close_trans succeeded daemon id: 4 session id: 16
+<DEBUG> 1-May-2019::16:34:38.487 QSNYDER-M-C5UP ncs[4791]: devel-c close_trans request daemon id: 0 session id: 16
+<DEBUG> 1-May-2019::16:34:38.487 QSNYDER-M-C5UP ncs[4791]: devel-c close_trans succeeded daemon id: 0 session id: 16
+<DEBUG> 1-May-2019::16:34:38.487 QSNYDER-M-C5UP ncs[4791]: devel-c close_trans request daemon id: 2 session id: 16
+<DEBUG> 1-May-2019::16:34:38.487 QSNYDER-M-C5UP ncs[4791]: devel-c close_trans succeeded daemon id: 2 session id: 16
+<DEBUG> 1-May-2019::16:34:38.487 QSNYDER-M-C5UP ncs[4791]: devel-c close_trans request daemon id: 1 session id: 16
+<DEBUG> 1-May-2019::16:34:38.487 QSNYDER-M-C5UP ncs[4791]: devel-c close_trans succeeded daemon id: 1 session id: 16
+<DEBUG> 1-May-2019::16:34:38.488 QSNYDER-M-C5UP ncs[4791]: devel-c close_usess db request daemon id: 4
+<DEBUG> 1-May-2019::16:34:38.488 QSNYDER-M-C5UP ncs[4791]: devel-c db reply daemon id: 4
+<DEBUG> 1-May-2019::16:34:38.488 QSNYDER-M-C5UP ncs[4791]: devel-c close_usess db request daemon id: 2
+<DEBUG> 1-May-2019::16:34:38.488 QSNYDER-M-C5UP ncs[4791]: devel-c db reply daemon id: 2
+<DEBUG> 1-May-2019::16:34:38.488 QSNYDER-M-C5UP ncs[4791]: devel-c close_usess db request daemon id: 1
+<DEBUG> 1-May-2019::16:34:38.488 QSNYDER-M-C5UP ncs[4791]: devel-c db reply daemon id: 1
+<DEBUG> 1-May-2019::16:34:38.488 QSNYDER-M-C5UP ncs[4791]: devel-c close_usess db request daemon id: 0
+<DEBUG> 1-May-2019::16:34:38.488 QSNYDER-M-C5UP ncs[4791]: devel-c db reply daemon id: 0
+<DEBUG> 1-May-2019::16:34:38.492 QSNYDER-M-C5UP ncs[4791]: devel-cdb connect from econfd <0.320.0>
+<DEBUG> 1-May-2019::16:34:38.492 QSNYDER-M-C5UP ncs[4791]: devel-cdb new session on running for econfd <0.320.0>
+<DEBUG> 1-May-2019::16:34:38.493 QSNYDER-M-C5UP ncs[4791]: devel-cdb client econfd <0.320.0> closed
+<DEBUG> 1-May-2019::16:34:38.493 QSNYDER-M-C5UP ncs[4791]: devel-cdb connect from econfd <0.320.0>
+<DEBUG> 1-May-2019::16:34:38.493 QSNYDER-M-C5UP ncs[4791]: devel-cdb new session on operational for econfd <0.320.0>
+<DEBUG> 1-May-2019::16:34:38.493 QSNYDER-M-C5UP ncs[4791]: devel-cdb client econfd <0.320.0> closed
+<DEBUG> 1-May-2019::16:34:38.493 QSNYDER-M-C5UP ncs[4791]: devel-cdb connect from econfd <0.541.0>
+<DEBUG> 1-May-2019::16:34:38.493 QSNYDER-M-C5UP ncs[4791]: devel-cdb new subscriber session for econfd <0.541.0>
+<INFO> 1-May-2019::16:34:38.497 QSNYDER-M-C5UP ncs[4791]: ncs embedded apps in phase2:
+	[]
+<INFO> 1-May-2019::16:34:38.777 QSNYDER-M-C5UP ncs[4791]: devel-snmpa loaded snmp mib: /Users/qsnyder/ncs-510/lib/ncs/lib/snmp/snmp/priv/mibs/SNMPv2-MIB
+<INFO> 1-May-2019::16:34:38.777 QSNYDER-M-C5UP ncs[4791]: devel-snmpa loaded snmp mib: /Users/qsnyder/ncs-510/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-FRAMEWORK-MIB
+<INFO> 1-May-2019::16:34:38.777 QSNYDER-M-C5UP ncs[4791]: devel-snmpa loaded snmp mib: /Users/qsnyder/ncs-510/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-MPD-MIB
+<INFO> 1-May-2019::16:34:38.831 QSNYDER-M-C5UP ncs[4791]: devel-snmpa setting snmpEngineID: 80:00:7E:D9:04:74:65:73:74:69:6E:67
+<DEBUG> 1-May-2019::16:34:38.875 QSNYDER-M-C5UP ncs[4791]: devel-snmpa no view for view type: write
+<DEBUG> 1-May-2019::16:34:38.875 QSNYDER-M-C5UP ncs[4791]: devel-snmpa no access entry and view name found: view type: write, group name: public, context name: , sec model: SNMPv1(1), sec level: noAuthNoPriv(1)
+<DEBUG> 1-May-2019::16:34:38.875 QSNYDER-M-C5UP ncs[4791]: devel-snmpa no view for view type: write
+<DEBUG> 1-May-2019::16:34:38.875 QSNYDER-M-C5UP ncs[4791]: devel-snmpa no access entry and view name found: view type: write, group name: public, context name: , sec model: SNMPv2c(2), sec level: noAuthNoPriv(1)
+<INFO> 1-May-2019::16:34:38.906 QSNYDER-M-C5UP ncs[4791]: devel-snmpa loaded snmp mib: /Users/qsnyder/ncs-510/etc/ncs/snmp/IANA-ITU-ALARM-TC-MIB.bin
+<INFO> 1-May-2019::16:34:38.906 QSNYDER-M-C5UP ncs[4791]: devel-snmpa loaded snmp mib: /Users/qsnyder/ncs-510/etc/ncs/snmp/ITU-ALARM-TC-MIB.bin
+<INFO> 1-May-2019::16:34:38.914 QSNYDER-M-C5UP ncs[4791]: devel-snmpa loaded snmp mib: /Users/qsnyder/ncs-510/etc/ncs/snmp/TAILF-ALARM-MIB.bin
+<INFO> 1-May-2019::16:34:38.916 QSNYDER-M-C5UP ncs[4791]: devel-snmpa loaded snmp mib: /Users/qsnyder/ncs-510/etc/ncs/snmp/TAILF-ALARM-TC-MIB.bin
+<INFO> 1-May-2019::16:34:38.918 QSNYDER-M-C5UP ncs[4791]: devel-snmpa loaded snmp mib: /Users/qsnyder/ncs-510/etc/ncs/snmp/TAILF-TOP-MIB.bin
+<INFO> 1-May-2019::16:34:38.918 QSNYDER-M-C5UP ncs[4791]: devel-snmpa loaded snmp mib: /Users/qsnyder/ncs-510/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-COMMUNITY-MIB.bin
+<INFO> 1-May-2019::16:34:38.919 QSNYDER-M-C5UP ncs[4791]: devel-snmpa loaded snmp mib: /Users/qsnyder/ncs-510/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-TARGET-MIB.bin
+<INFO> 1-May-2019::16:34:38.922 QSNYDER-M-C5UP ncs[4791]: devel-snmpa loaded snmp mib: /Users/qsnyder/ncs-510/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-NOTIFICATION-MIB.bin
+<INFO> 1-May-2019::16:34:38.923 QSNYDER-M-C5UP ncs[4791]: devel-snmpa loaded snmp mib: /Users/qsnyder/ncs-510/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-USER-BASED-SM-MIB.bin
+<INFO> 1-May-2019::16:34:38.924 QSNYDER-M-C5UP ncs[4791]: devel-snmpa loaded snmp mib: /Users/qsnyder/ncs-510/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-VIEW-BASED-ACM-MIB.bin
+<INFO> 1-May-2019::16:34:38.924 QSNYDER-M-C5UP ncs[4791]: devel-snmpa snmp agent started
+<DEBUG> 1-May-2019::16:34:39.166 QSNYDER-M-C5UP ncs[4791]: devel-cdb connect from NCSLOGGER-subscr
+<DEBUG> 1-May-2019::16:34:39.178 QSNYDER-M-C5UP ncs[4791]: devel-cdb new subscriber session for NCSLOGGER-subscr
+<DEBUG> 1-May-2019::16:34:39.209 QSNYDER-M-C5UP ncs[4791]: devel-cdb connect from ncsMain-alCdb
+<DEBUG> 1-May-2019::16:34:39.557 QSNYDER-M-C5UP ncs[4791]: devel-c New daemon connected (name: ncs-dp-1-cisco-ios-cli-3.8:IOSDp2, daemon id: 6)
+<DEBUG> 1-May-2019::16:34:39.584 QSNYDER-M-C5UP ncs[4791]: devel-c New daemon connected (name: ncs-dp-2-cisco-ios-cli-3.8:IOSDp, daemon id: 7)
+<ERR> 1-May-2019::16:34:39.589 QSNYDER-M-C5UP ncs[4791]: devel-c Daemon 'ncs-dp-2-cisco-ios-cli-3.8:IOSDp' registered for non-existing callpoint '_cisco-ios-cli-3.8:cisco-ios-cli-3.8#UNUSED-bridge-domain-create'
+<ERR> 1-May-2019::16:34:39.589 QSNYDER-M-C5UP ncs[4791]: devel-c Daemon 'ncs-dp-2-cisco-ios-cli-3.8:IOSDp' registered for non-existing callpoint '_cisco-ios-cli-3.8:cisco-ios-cli-3.8#UNUSED-bridge-domain-setelem'
+<ERR> 1-May-2019::16:34:39.589 QSNYDER-M-C5UP ncs[4791]: devel-c Daemon 'ncs-dp-2-cisco-ios-cli-3.8:IOSDp' registered for non-existing callpoint '_cisco-ios-cli-3.8:cisco-ios-cli-3.8#vrf-definition-hook'
+<DEBUG> 1-May-2019::16:34:39.661 QSNYDER-M-C5UP ncs[4791]: devel-cdb connect from econfd <0.672.0>
+<DEBUG> 1-May-2019::16:34:39.661 QSNYDER-M-C5UP ncs[4791]: devel-cdb new subscriber session for econfd <0.672.0>
+<DEBUG> 1-May-2019::16:34:39.733 QSNYDER-M-C5UP ncs[4791]: devel-sls starting SLS server
+<DEBUG> 1-May-2019::16:34:42.935 QSNYDER-M-C5UP ncs[4791]: devel-cdb Delaying CDB journal compaction
+<DEBUG> 1-May-2019::16:34:44.585 QSNYDER-M-C5UP ncs[4791]: devel-c new_usess db request daemon id: 7
+<DEBUG> 1-May-2019::16:34:44.585 QSNYDER-M-C5UP ncs[4791]: devel-c db reply daemon id: 7
+<DEBUG> 1-May-2019::16:34:44.585 QSNYDER-M-C5UP ncs[4791]: devel-c close_usess db request daemon id: 7
+<DEBUG> 1-May-2019::16:34:44.585 QSNYDER-M-C5UP ncs[4791]: devel-c db reply daemon id: 7
+<DEBUG> 1-May-2019::16:34:44.585 QSNYDER-M-C5UP ncs[4791]: devel-c new_usess db request daemon id: 6
+<DEBUG> 1-May-2019::16:34:44.586 QSNYDER-M-C5UP ncs[4791]: devel-c db reply daemon id: 6
+<DEBUG> 1-May-2019::16:34:44.586 QSNYDER-M-C5UP ncs[4791]: devel-c close_usess db request daemon id: 6
+<DEBUG> 1-May-2019::16:34:44.586 QSNYDER-M-C5UP ncs[4791]: devel-c db reply daemon id: 6
+<DEBUG> 1-May-2019::16:34:47.012 QSNYDER-M-C5UP ncs[4791]: devel-cdb connect from econfd <0.746.0>
+<DEBUG> 1-May-2019::16:34:47.012 QSNYDER-M-C5UP ncs[4791]: devel-cdb new subscriber session for econfd <0.746.0>
+<DEBUG> 1-May-2019::16:34:47.060 QSNYDER-M-C5UP ncs[4791]: devel-cdb connect from econfd <0.749.0>
+<DEBUG> 1-May-2019::16:34:47.060 QSNYDER-M-C5UP ncs[4791]: devel-cdb new subscriber session for econfd <0.749.0>
+<DEBUG> 1-May-2019::16:34:47.060 QSNYDER-M-C5UP ncs[4791]: devel-sls request entitlement tag:<<"regid.2015-10.com.cisco.NSO-platform-production,1.0_d1445dab-9d96-4593-99f2-6f633b8a759c">> version:<<"1.0">> count:1
+<INFO> 1-May-2019::16:34:47.936 QSNYDER-M-C5UP ncs[4791]: devel-cdb Initiating CDB journal compaction
+<INFO> 1-May-2019::16:34:47.938 QSNYDER-M-C5UP ncs[4791]: devel-cdb Compacted CDB journal file: 1 ms (339 nodes in memory, disk size 5.11 KiB -> 4.86 KiB)
+<DEBUG> 1-May-2019::16:34:48.268 QSNYDER-M-C5UP ncs[4791]: devel-sls request entitlement tag:<<"regid.2015-10.com.cisco.NSO-network-element,1.0_5d641fa0-757d-43b0-a926-166cb6e3cfdd">> version:<<"1.0">> count:0
+<DEBUG> 1-May-2019::16:34:48.272 QSNYDER-M-C5UP ncs[4791]: devel-sls request entitlement tag:<<"regid.2015-10.com.cisco.NSO-platform-production-standby,1.0_c1a6183d-336a-4f35-af72-49a0d99b02b8">> version:<<"1.0">> count:0
+<DEBUG> 1-May-2019::16:34:48.275 QSNYDER-M-C5UP ncs[4791]: devel-sls received global notification: notification_type = notify_enabled, enforce_mode = not_applicable
+<DEBUG> 1-May-2019::16:34:52.018 QSNYDER-M-C5UP ncs[4791]: devel-sls received global notification: notification_type = notify_ready, enforce_mode = not_applicable
+<DEBUG> 1-May-2019::16:34:52.038 QSNYDER-M-C5UP ncs[4791]: devel-sls received global notification: notification_type = notify_enforcement_mode, enforce_mode = eval
+<INFO> 1-May-2019::16:35:26.372 QSNYDER-M-C5UP ncs[4791]: devel-c [stopping] Daemon closed (name: ncs-dp-2-cisco-ios-cli-3.8:IOSDp, daemon id: 7)
+<DEBUG> 1-May-2019::16:35:26.375 QSNYDER-M-C5UP ncs[4791]: devel-cdb inactive client ncsMain-alCdb closed
+<INFO> 1-May-2019::16:35:26.379 QSNYDER-M-C5UP ncs[4791]: devel-c [stopping] Daemon closed (name: ncs-dp-1-cisco-ios-cli-3.8:IOSDp2, daemon id: 6)
+<DEBUG> 1-May-2019::16:35:26.379 QSNYDER-M-C5UP ncs[4791]: devel-cdb subscriber NCSLOGGER-subscr closed
+<DEBUG> 1-May-2019::16:35:26.379 QSNYDER-M-C5UP ncs[4791]: devel-cdb subscriber econfd <0.746.0> closed
+<DEBUG> 1-May-2019::16:35:26.379 QSNYDER-M-C5UP ncs[4791]: devel-cdb subscriber econfd <0.749.0> closed
+<DEBUG> 1-May-2019::16:35:26.387 QSNYDER-M-C5UP ncs[4791]: devel-cdb subscriber econfd <0.672.0> closed
+<INFO> 1-May-2019::16:35:30.436 QSNYDER-M-C5UP ncs[4791]: devel-c Worker closed daemon id: 4, worker id: 1, socket: {socket,<0.395.0>}
+<DEBUG> 1-May-2019::16:35:30.436 QSNYDER-M-C5UP ncs[4791]: devel-c Daemon closed (name: ncs-internal-service-mux-completion, daemon id: 5)
+<DEBUG> 1-May-2019::16:35:30.436 QSNYDER-M-C5UP ncs[4791]: devel-c Daemon closed (name: ncs-internal-service-mux, daemon id: 4)
+<DEBUG> 1-May-2019::16:35:30.437 QSNYDER-M-C5UP ncs[4791]: devel-c Daemon closed (name: ncs-internal-template-variable, daemon id: 3)
+<DEBUG> 1-May-2019::16:35:30.437 QSNYDER-M-C5UP ncs[4791]: devel-c Daemon closed (name: ncs-internal-device-mgr, daemon id: 0)
+<INFO> 1-May-2019::16:35:30.438 QSNYDER-M-C5UP ncs[4791]: devel-c Worker closed daemon id: 2, worker id: 7, socket: {socket,<0.372.0>}
+<INFO> 1-May-2019::16:35:30.438 QSNYDER-M-C5UP ncs[4791]: devel-c [stopping] Daemon closed (name: snmp-config-hook, daemon id: 2)
+<INFO> 1-May-2019::16:35:30.438 QSNYDER-M-C5UP ncs[4791]: devel-c Worker closed daemon id: 1, worker id: 4, socket: {socket,<0.361.0>}
+<INFO> 1-May-2019::16:35:30.439 QSNYDER-M-C5UP ncs[4791]: devel-c [stopping] Daemon closed (name: snmp-config-transform, daemon id: 1)

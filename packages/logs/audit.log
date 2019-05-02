@@ -1,0 +1,7 @@
+<INFO> 1-May-2019::16:34:38.847 QSNYDER-M-C5UP ncs[4791]: audit user: sys/27 created new session via system from 0.0.0.0:0 with system
+<INFO> 1-May-2019::16:34:44.584 QSNYDER-M-C5UP ncs[4791]: audit user: sys/27 terminated session (reason: normal)
+<INFO> 1-May-2019::16:35:06.293 QSNYDER-M-C5UP ncs[4791]: audit user: admin/0 local authentication succeeded via rest from 127.0.0.1:50391 with http, member of groups: admin
+<INFO> 1-May-2019::16:35:06.293 QSNYDER-M-C5UP ncs[4791]: audit user: admin/0 logged in via rest from 127.0.0.1:50391 with http using local authentication
+<INFO> 1-May-2019::16:35:06.298 QSNYDER-M-C5UP ncs[4791]: audit user: admin/37 assigned to groups: admin
+<INFO> 1-May-2019::16:35:06.299 QSNYDER-M-C5UP ncs[4791]: audit user: admin/37 created new session via rest from 127.0.0.1:50391 with http
+<INFO> 1-May-2019::16:35:06.329 QSNYDER-M-C5UP ncs[4791]: audit user: admin/37 terminated session (reason: normal)
